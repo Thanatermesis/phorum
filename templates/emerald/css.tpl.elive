@@ -195,7 +195,7 @@ img {
     color: {new_color};
 }
 
-#phorum h4 a.new-flag {
+#phorum a.message-new {
     font-weight: bold;
 }
 
@@ -236,12 +236,12 @@ img {
 }
 
 #phorum table.menu td.content h2 {
-    //margin: 0 0 8px 0;
-    //background-repeat: repeat-x;
+    margin: 0 0 8px 0;
+    background-repeat: repeat-x;
     background-image: url('{header_background_image}');
     color: {border_font_color};
     background-color: {border_color};
-    //padding: 4px;
+    padding: 4px;
 }
 
 #phorum table.menu td.content div.generic {
@@ -285,14 +285,16 @@ img {
 
 #phorum #logo {
     // Modifications by Elive         /////////////////////////////////////////////////////////
-    height: 0px;
-    margin: -10px 0 -144px 0;
-    //background-color: #78ade1;
+//    height: 46px;
+	height: 0px;
+    //margin: -10px 0 -144px 0;
+    //background-color: {logo_background_color};
     vertical-align: bottom;
-    //background-image: url('templates/emerald/images/top_background.png');
+   // background-image: url('{top_background_image}');
 }
 
 #phorum #logo img {
+    //margin: 16px 0 0px 16px;
     margin: 16px 0 0px 34px; // Elive
 }
 
@@ -312,10 +314,6 @@ img {
     border-top: 0;
     padding: 5px;
     font-size: {font_small};
-}
-
-#phorum #breadcrumb .active {
-    font-weight: bold;
 }
 
 #phorum #user-info {
@@ -445,7 +443,6 @@ img {
     background-color: {alt_background_color};
     border: 1px solid {border_color};
     line-height: 20px;
-
 }
 
 #phorum div.message-options {
@@ -461,7 +458,6 @@ img {
     border: 1px solid {border_color};
     padding: 8px;
     text-align: center;
-    line-height: 2em;
 }
 
 /* Changes styles */
@@ -630,11 +626,6 @@ img {
     text-align: center;
 }
 
-.phorum_busy_message {
-    border: 1px solid #cc7;
-    padding: 5px 5px 5px 30px;
-    background: #ff9 url({URL->TEMPLATE}/images/ajax_progress.gif) no-repeat 5px 5px;
-}
 
 /* Icon Styles */
 
