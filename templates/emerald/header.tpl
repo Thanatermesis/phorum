@@ -149,6 +149,20 @@ Some Icons courtesy of:
       </a>
     </div> <!-- end of div id=logo -->
 
+<strong style="background-color: rgba(250, 230, 100, 10);">
+We moved to this<a href="https://forum.elivelinux.org"> Improved Forum!</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="https://forum.elivelinux.org">Do not use this old forum, we MOVED to here!</a>
+<br>
+</strong>
+
     {! This <div> holds the breadcrumb navigation code. This breadcrumb }
     {! navigation shows the user where he is on the site, relative to }
     {! the Phorum start location (leaving a "breadcrumb" at every step }
