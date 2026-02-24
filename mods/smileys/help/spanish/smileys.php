@@ -15,11 +15,11 @@
     <h2>Ayuda para usar los smileys</h2>
 
     En este foro puedes utilizar smileys.
-    Los smileys son cadenas de caracteres que aparecer醤 como
+    Los smileys son cadenas de caracteres que aparecer谩n como
     una imagen mientras leas el mensaje. Los smileys suelen ser
     usados para expresar sentimiento en el texto. En la tabla inferior
-    puedes ver todos los smileys que est醤 disponibles. La columna
-    "D髇de" indica d髇de pueden ser utilizados los smileys (S = Asunto,
+    puedes ver todos los smileys que est谩n disponibles. La columna
+    "D贸nde" indica d贸nde pueden ser utilizados los smileys (S = Asunto,
     B = Cuerpo del mensaje, BS = ambos).
 
     <br/><br/>
@@ -27,8 +27,8 @@
     <tr>
       <th class="PhorumAdminTableHead">Smiley</th>
       <th class="PhorumAdminTableHead">Imagen</th>
-      <th class="PhorumAdminTableHead">Descripci髇</th>
-      <th class="PhorumAdminTableHead">D髇de</th>
+      <th class="PhorumAdminTableHead">Descripci贸n</th>
+      <th class="PhorumAdminTableHead">D贸nde</th>
     </tr>
     <?php include("./mods/smileys/help/render_smileys_list.php") ?>
     </table>

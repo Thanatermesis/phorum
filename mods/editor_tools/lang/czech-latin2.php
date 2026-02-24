@@ -1,6 +1,6 @@
 <?php
 $PHORUM["DATA"]["LANG"]["mod_editor_tools"] = array(
     # Button descriptions.
-    'help'         => 'Informace n povØdy',
+    'help'         => 'Informace nÂ povÃ˜dy',
 );
 ?>

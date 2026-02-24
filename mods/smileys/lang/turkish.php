@@ -1,10 +1,10 @@
 <?php
 $PHORUM["DATA"]["LANG"]["mod_smileys"] = array(
     'smiley'        => 'Smiley Ekle',
-    'subjectsmiley' => 'Konu baþlýðýna smiley ekle',
-    'smileys help'  => 'Smiley Yardým',
+    'subjectsmiley' => 'Konu baÃ¾lÃ½Ã°Ã½na smiley ekle',
+    'smileys help'  => 'Smiley YardÃ½m',
 
     # Text for the smileys disable option in the posting editor.
-    'disable'      => 'Mesajýmda Smiley kullanma'
+    'disable'      => 'MesajÃ½mda Smiley kullanma'
 );
 ?>

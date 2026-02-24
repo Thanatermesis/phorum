@@ -4,11 +4,11 @@
     <link rel="stylesheet" type="text/css" href="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/bbcode/help/help.css"/>
   </head>
   <body>
-    <h2>InformaciÛn BBcode</h2>
+    <h2>Informaci√≥n BBcode</h2>
 
     BBCode es una abreviatura de Bulletin Board Code. Es un lenguaje
     de marcado usado en foros para dar formato a los mensajes. Esta
-    p·gina de ayuda describe cÛmo puede usarse el BBCode en este foro.
+    p√°gina de ayuda describe c√≥mo puede usarse el BBCode en este foro.
 
     <h3>Negrita: [b]...[/b]<br/>
         Subrayado: [u]...[/u]<br/>
@@ -28,7 +28,7 @@
     </tt><br/><br/>
 
 
-    Aparecer·n como:<br/><br/>
+    Aparecer√°n como:<br/><br/>
     <b>Texto en negrita</b><br/>
     <i>Texto en cursiva</i><br/>
     <u>Texto subrayado</u><br/>
@@ -36,19 +36,19 @@
     <b><i>Texto</i> con <strike>varias</strike> opciones</b>
 
 
-    <h3>SuperÌndice: [sup]...[/sup]<br/>SubÌndice: [sub]...[/sub] </h3>
+    <h3>Super√≠ndice: [sup]...[/sup]<br/>Sub√≠ndice: [sub]...[/sub] </h3>
     Usando estas etiquetas, puedes marcar un fragmento de texto como
-    superÌndice o subÌndice. Esto es ˙til para cosas como
+    super√≠ndice o sub√≠ndice. Esto es √∫til para cosas como
     "2<sup>4</sup> = 16" o "H<sub>2</sub>O". Ejemplo:<br/><br/>
     <tt>
-    [sup]superÌncide[/sup] normal [sub]subÌndice[/sub]
+    [sup]super√≠ncide[/sup] normal [sub]sub√≠ndice[/sub]
     </tt><br/><br/>
-    Esto aparecer· como :<br/><br/>
-    <sup>superÌndice</sup> normal <sub>subÌndice</sub>
+    Esto aparecer√° como :<br/><br/>
+    <sup>super√≠ndice</sup> normal <sub>sub√≠ndice</sub>
 
     <h3>Color de la fuente: [color=...]...[/color]</h3>
     Esta etiqueta se utiliza para aplicar un color al texto.
-    El color tiene que ser un cÛdigo de color HTML v·lido (como "blue", "red",
+    El color tiene que ser un c√≥digo de color HTML v√°lido (como "blue", "red",
     "#ff0000", "#888", etc.). Ejemplo:<br/><br/>
     <tt>
     Quien tiene miedo del
@@ -56,16 +56,16 @@
     [color=#eeaa00]amarillo[/color] y
     [color=#30f]azul[/color]?
     </tt><br/><br/>
-    Aparecer· como:<br/><br/>
-    QuiÈn tiene miedo del
+    Aparecer√° como:<br/><br/>
+    Qui√©n tiene miedo del
     <span style="color: red">rojo</span>,
     <span style="color: #eeaa00">amarillo</span> y
     <span style="color: #30F">azul</span>?
 
-    <h3>TamaÒo de fuente: [size=...]...[/size]</h3>
+    <h3>Tama√±o de fuente: [size=...]...[/size]</h3>
 
-    Esta etiqueta se usa para cambiar el tamaÒo del texto.
-    El tamaÒo tiene que ser una indicaciÛn v·lida en HTML (como "12px",
+    Esta etiqueta se usa para cambiar el tama√±o del texto.
+    El tama√±o tiene que ser una indicaci√≥n v√°lida en HTML (como "12px",
     "small", "large", etc.). Ejemplo:<br/><br/>
     <tt>
     [size=x-small]Parece[/size]
@@ -74,7 +74,7 @@
     [size=large]creciendo[/size]
     [size=x-large]mucho![/size]
     </tt><br/><br/>
-    Se mostrar· como:<br/><br/>
+    Se mostrar√° como:<br/><br/>
     <span style="font-size: x-small">Parece</span>
     <span style="font-size: small">que</span>
     <span style="font-size: medium">estoy</span>
@@ -87,12 +87,12 @@
     <tt>
     [center]Estoy justo en el centro[/center]
     </tt><br/><br/>
-    Aparecer· como:<br/><br/>
+    Aparecer√° como:<br/><br/>
     <center>Estoy justo en el centro</center>
 
     <h3>Enlazar una imagen de la web: [img]...[/img]<br/>
-        Enlazar a otra p·gina: [url]...[/url] or [url=...]...[/url]<br/>
-        Enlazar a una direcciÛn de correo: [email]...[/email]</h3>
+        Enlazar a otra p√°gina: [url]...[/url] or [url=...]...[/url]<br/>
+        Enlazar a una direcci√≥n de correo: [email]...[/email]</h3>
 
     Estas son etiquetas para enlazar a otros recursos.
     Estos son algunos ejemplos: <br/><br/>
@@ -102,7 +102,7 @@
     [url=http://www.phorum.org]Visit Phorum.org![/url]<br/>
     [email]someuser@somesite.com[/email]
     </tt></br></br>
-    Aparecer· como:<br/><br/>
+    Aparecer√° como:<br/><br/>
     <img src="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/bbcode/help/thumbsup.gif" border="0"/><br/>
     [<a href="http://www.phorum.org">www.phorum.org</a>]<br/>
     <a rel="nofollow" href="http://www.phorum.org">Visit Phorum.org!</a><br/>
@@ -110,7 +110,7 @@
 
     <h3>Texto monoespaciado, preformateado: [code]...[/code]</h3>
     En ocasiones puedes llegar a utilizar cosas como arte ASCII,
-    cÛdigo de programaciÛn, tabulaciones de guitarra... para incluirlos
+    c√≥digo de programaci√≥n, tabulaciones de guitarra... para incluirlos
     en el mensaje. Para esos casos, puedes usar la etiqueta [code]. Ejemplo:
 <pre>
 [code]
@@ -123,7 +123,7 @@
 [/code]
 </pre>
 
-Sin la etiqueta [code], aparecerÌa totalmente desordenado como esto:
+Sin la etiqueta [code], aparecer√≠a totalmente desordenado como esto:
 <br/><br/>
   _____  _                                <br/>
  |  __ \| |                               <br/>
@@ -133,7 +133,7 @@ Sin la etiqueta [code], aparecerÌa totalmente desordenado como esto:
  |_|    |_| |_|\___/|_|   \__,_|_| |_| |_|<br/>
 <br>
 
-Pero si le aplicamos la etiqueta [code], nos quedar· asÌ:
+Pero si le aplicamos la etiqueta [code], nos quedar√° as√≠:
 <pre style="border: 1px solid #dde; background-color: #ffe; padding: 0px 0px 0px 10px">
   _____  _
  |  __ \| |
@@ -152,19 +152,19 @@ Pero si le aplicamos la etiqueta [code], nos quedar· asÌ:
     <tt>
     [quote]Phorum es lo mejor![/quote]<br/>
     [quote=De Hamlet, por William Shakespeare]<br/>
-    Ser o no ser, esa es la cuestiÛn<br/>
+    Ser o no ser, esa es la cuesti√≥n<br/>
     [/quote]
     </tt><br/><br/>
-    Aparecer· como:<br/><br/>
+    Aparecer√° como:<br/><br/>
     <blockquote class="bbcode">Cita:<div>Phorum es lo mejor!</div></blockquote>
     <blockquote class="bbcode">Cita:<div><strong>De Hamlet, por William Shakespeare</strong><br />
-     Ser o no ser, esa es la cuestiÛn</div></blockquote>
+     Ser o no ser, esa es la cuesti√≥n</div></blockquote>
 
-    <h3>AÒadir una linea horizontal de separaciÛn: [hr]</h3>
-    Para aÒadir una linea horizontal de separaciÛn, puedes usar [hr].
-    Aparecer· como:
+    <h3>A√±adir una linea horizontal de separaci√≥n: [hr]</h3>
+    Para a√±adir una linea horizontal de separaci√≥n, puedes usar [hr].
+    Aparecer√° como:
     <hr>
-    Esto es ˙til para estructurar mensajes largos.
+    Esto es √∫til para estructurar mensajes largos.
 
     <h3>Itemized list: [list] [*] item 1 [*] item 2 [/list]</h3>
 

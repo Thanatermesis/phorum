@@ -1,27 +1,27 @@
 <?php
 
 $PHORUM['DATA']['LANG']['mod_username_restrictions'] = array(
-    'min_length'     => 'Lütfen daha uzun bir kullanýcý adý seçiniz ' .
+    'min_length'     => 'LÃ¼tfen daha uzun bir kullanÃ½cÃ½ adÃ½ seÃ§iniz ' .
                         '(Minimum uzunluk %length% karakterdir).',
-    'max_length'     => 'Lütfen daha kýsa bir kullanýcý adý seçiniz' .
+    'max_length'     => 'LÃ¼tfen daha kÃ½sa bir kullanÃ½cÃ½ adÃ½ seÃ§iniz' .
                         '(Maksimum uzunluk %length% karakterdir).',
-    'valid_chars'    => 'Lütfen farklý bir kullanýcý adý seçiniz. ' .
-                        '"%username%" kullanýcý adý bir veya daha fazla geçersiz karakter ' .
-                        'içermektedir. Geçerli karakterler: %valid_chars%. ' .
-                        'Sizin rahatlýðýnýz için, gereksiz karakterler ' .
-                        'aþaðýdaki formda kullanýcý adýnýzdan kaldýrýlmýþtýr.',
+    'valid_chars'    => 'LÃ¼tfen farklÃ½ bir kullanÃ½cÃ½ adÃ½ seÃ§iniz. ' .
+                        '"%username%" kullanÃ½cÃ½ adÃ½ bir veya daha fazla geÃ§ersiz karakter ' .
+                        'iÃ§ermektedir. GeÃ§erli karakterler: %valid_chars%. ' .
+                        'Sizin rahatlÃ½Ã°Ã½nÃ½z iÃ§in, gereksiz karakterler ' .
+                        'aÃ¾aÃ°Ã½daki formda kullanÃ½cÃ½ adÃ½nÃ½zdan kaldÃ½rÃ½lmÃ½Ã¾tÃ½r.',
     'allowed_l'      => 'harfler (a-z)',
-    'allowed_n'      => 'sayýlar (0-9)',
+    'allowed_n'      => 'sayÃ½lar (0-9)',
     'allowed_d'      => 'nokta (.)',
-    'allowed_u'      => 'altý çizili (_)',
+    'allowed_u'      => 'altÃ½ Ã§izili (_)',
     'allowed_h'      => 'tire (-)',
-    'allowed_s'      => 'boþluk ( )',
+    'allowed_s'      => 'boÃ¾luk ( )',
     'and'            => 've',
-    'only_lowercase' => 'Lütfen daha farklý bir kullanýcý adý seçiniz. ' .
-                        '"%username%" kullanýcý ismi bir veya daha fazla büyük harf ' .
-                        'içermektedir, fakat sadece küçük karakterlere izin verilmektedir. ' .
-                        'Sizin rahatlýðýnýz için kullanýcý adýnýzdaki büyük karakterler ' .
-                        'aþaðýdaki formda küçültülmüþtür.',
+    'only_lowercase' => 'LÃ¼tfen daha farklÃ½ bir kullanÃ½cÃ½ adÃ½ seÃ§iniz. ' .
+                        '"%username%" kullanÃ½cÃ½ ismi bir veya daha fazla bÃ¼yÃ¼k harf ' .
+                        'iÃ§ermektedir, fakat sadece kÃ¼Ã§Ã¼k karakterlere izin verilmektedir. ' .
+                        'Sizin rahatlÃ½Ã°Ã½nÃ½z iÃ§in kullanÃ½cÃ½ adÃ½nÃ½zdaki bÃ¼yÃ¼k karakterler ' .
+                        'aÃ¾aÃ°Ã½daki formda kÃ¼Ã§Ã¼ltÃ¼lmÃ¼Ã¾tÃ¼r.',
 );
 
 ?>

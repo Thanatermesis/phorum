@@ -1,7 +1,7 @@
 <?php
 $PHORUM["DATA"]["LANG"]["mod_smileys"] = array(
-    'smiley'        => 'Insérer un émoticon',
-    'subjectsmiley' => 'Insérer un émoticon dans le sujet',
+    'smiley'        => 'InsÃ©rer un Ã©moticon',
+    'subjectsmiley' => 'InsÃ©rer un Ã©moticon dans le sujet',
     'smileys help'  => 'Aide sur les Smileys',
 
     # Text for the smileys disable option in the posting editor.

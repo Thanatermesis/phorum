@@ -8,24 +8,24 @@
 ?>
 <html>
   <head>
-    <title>Hymiö ohje</title>
+    <title>HymiÃ¶ ohje</title>
     <link rel="stylesheet" type="text/css" href="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/smileys/help/help.css"/>
   </head>
   <body>
-    <h2>Neuvoja hymiöiden käyttöön</h2>
+    <h2>Neuvoja hymiÃ¶iden kÃ¤yttÃ¶Ã¶n</h2>
 
-    Tämä forum mahdollistaa hymiöiden käytön. Tavallisista ascii
-    merkeistä muodostetut merkkijonot näytetään viestiä luettaessa
-    kuvina. Allaoleva taulukko näyttää kaikki käytettävissä olevat
-    hymiöt. "Käyttö" sarake ilmoittaa missä viestinosissa voit
-    käyttää hymiötä (O = otsikko, V = viesti, VO = molemmissa).
+    TÃ¤mÃ¤ forum mahdollistaa hymiÃ¶iden kÃ¤ytÃ¶n. Tavallisista ascii
+    merkeistÃ¤ muodostetut merkkijonot nÃ¤ytetÃ¤Ã¤n viestiÃ¤ luettaessa
+    kuvina. Allaoleva taulukko nÃ¤yttÃ¤Ã¤ kaikki kÃ¤ytettÃ¤vissÃ¤ olevat
+    hymiÃ¶t. "KÃ¤yttÃ¶" sarake ilmoittaa missÃ¤ viestinosissa voit
+    kÃ¤yttÃ¤Ã¤ hymiÃ¶tÃ¤ (O = otsikko, V = viesti, VO = molemmissa).
     <br/><br/>
     <table cellspacing="1" width="100%">
     <tr>
-      <th class="PhorumAdminTableHead">Hymiö</th>
+      <th class="PhorumAdminTableHead">HymiÃ¶</th>
       <th class="PhorumAdminTableHead">Kuva</th>
       <th class="PhorumAdminTableHead">Kuvaus</th>
-      <th class="PhorumAdminTableHead">Käyttö</th>
+      <th class="PhorumAdminTableHead">KÃ¤yttÃ¶</th>
     </tr>
     <?php include("./mods/smileys/help/render_smileys_list.php") ?>
     </table>

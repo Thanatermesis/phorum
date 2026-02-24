@@ -6,9 +6,9 @@
   <body>
     <h2>Assistenza su BBcode</h2>
 
-    BBcode È l'acronimo in inglese che sta per Bulletin Board code.
+    BBcode √© l'acronimo in inglese che sta per Bulletin Board code.
     Sono dei codici che possono essere usati per formattare il
-    testo. Questa pagina aiuta a capire come puÛ essere utilizzato
+    testo. Questa pagina aiuta a capire come pu√≥ essere utilizzato
     il BBcode su questo forum.
 
     <h3>Testo in grasseto: [b]...[/b]<br/>
@@ -21,24 +21,24 @@
     <p>Per esempio, se scriviamo le seguenti frasi nel modo seguente:</p>
 
     <tt>
-    [b]Questo testo È in grasseto[/b]<br/>
-    [i]Questo testo È in italico[/i]<br/>
-    [u]Questo testo È sottolineato[/u]<br/>
+    [b]Questo testo √© in grasseto[/b]<br/>
+    [i]Questo testo √© in italico[/i]<br/>
+    [u]Questo testo √© sottolineato[/u]<br/>
     [s]Questo testo ha una riga sopra[/s]<br/>
-    [b][i]Questo testo[/i] È [s]vario[/s] e misto[/b]
+    [b][i]Questo testo[/i] √© [s]vario[/s] e misto[/b]
     </tt><br/><br/>
 
-    Il testo, una volta pubblicato, diventer·:<br/><br/>
-    <b>Questo testo È in grasseto</b><br/>
-    <i>Questo testo È in italico</i><br/>
-    <u>Questo testo È sottolineato</u><br/>
+    Il testo, una volta pubblicato, diventer√°:<br/><br/>
+    <b>Questo testo √© in grasseto</b><br/>
+    <i>Questo testo √© in italico</i><br/>
+    <u>Questo testo √© sottolineato</u><br/>
     <strike>Questo testo ha una riga sopra</strike><br/>
-    <b><i>Questo testo</i> È <strike>vario</strike> e misto</b>
+    <b><i>Questo testo</i> √© <strike>vario</strike> e misto</b>
 
 
     <h3>Posto in alto: [sup]...[/sup]<br/>Posto in basso: [sub]...[/sub] </h3>
     Inserendo questi codici, potete scrivere ponendo il testo in alto
-    oppure in basso rispetto alla riga. Questo ad esempio puÛ tornare
+    oppure in basso rispetto alla riga. Questo ad esempio pu√≥ tornare
     utile nell'utilizzo dei numeri come
     "2<sup>4</sup> = 16" or "H<sub>2</sub>O".
 
@@ -50,10 +50,10 @@
     <sup>posto in alto</sup> normale <sub>posto in basso</sub>
 
     <h3>Colore dei caratteri: [color=...]...[/color]</h3>
-    Questo codice puÛ essere utilizzato per imporre un colore
+    Questo codice pu√≥ essere utilizzato per imporre un colore
     in un testo o parte di esso. Il colore dev'essere un codice
     valido di HTML (per esempio "blu", "rosso", il codice HTML
-    È "#ff0000", "#888", eccetera, eccetera). </br>
+    √© "#ff0000", "#888", eccetera, eccetera). </br>
     Ad esempio:<br/><br/>
     <tt>
     Chi ha paura del
@@ -61,14 +61,14 @@
     [color=#eeaa00]giallo[/color] e del
     [color=#30f]blu[/color]?
     </tt><br/><br/>
-    Diventer·:<br/><br/>
+    Diventer√°:<br/><br/>
     Chi ha paura del
     <span style="color: red">rosso</span>,
     <span style="color: #eeaa00">giallo</span> e
     <span style="color: #30F">blu</span>?
 
     <h3>Dimensioni carattere: [size=...]...[/size]</h3>
-    Questo codice puÛ essere utilizzato per dare una dimensione al testo intero o parziale.
+    Questo codice pu√≥ essere utilizzato per dare una dimensione al testo intero o parziale.
     L'indicazione della dimensione deve essere un codice valido HTML (ad esempio "12px" oppure
     "small", "large", etc.). Example:<br/><br/>
     <tt>
@@ -78,7 +78,7 @@
     [size=large]STIA[/size]
     [size=x-large]CRESCENDO![/size]
     </tt><br/><br/>
-    Diventer·:<br/><br/>
+    Diventer√°:<br/><br/>
     <span style="font-size: x-small">SEMBRA</span>
     <span style="font-size: small">CHE</span>
     <span style="font-size: medium">IO</span>
@@ -90,7 +90,7 @@
     <tt>
     [center]Mi trovo proprio nel mezzo di tutto[/center]
     </tt><br/><br/>
-    Diventer·:<br/><br/>
+    Diventer√°:<br/><br/>
     <center>Mi trovo proprio nel mezzo di tutto</center>
 
     <h3>Crea un link ad un immagine da un indirizzo internet: [img]...[/img]<br/>
@@ -104,7 +104,7 @@
     [url=http://www.phorum.org]Visit Phorum.org![/url]<br/>
     [email]someuser@somesite.com[/email]
     </tt></br></br>
-    Questo È come apparir·:<br/><br/>
+    Questo √© come apparir√°:<br/><br/>
     <img src="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/bbcode/help/thumbsup.gif" border="0"/><br/>
     [<a href="http://www.phorum.org">www.phorum.org</a>]<br/>
     <a rel="nofollow" href="http://www.phorum.org">Visit Phorum.org!</a><br/>
@@ -125,7 +125,7 @@
 [/code]
 </pre>
 
-Senza [code] prima e [/code] alla fine, questo testo apparirebbe completamente sconnesso cosÌ:
+Senza [code] prima e [/code] alla fine, questo testo apparirebbe completamente sconnesso cos√≠:
 <br/><br/>
   _____  _                                <br/>
  |  __ \| |                               <br/>
@@ -134,7 +134,7 @@ Senza [code] prima e [/code] alla fine, questo testo apparirebbe completamente s
  | |    | | | | (_) | |  | |_| | | | | | |<br/>
  |_|    |_| |_|\___/|_|   \__,_|_| |_| |_|<br/>
 <br/>
-Ma inserendo [code] prima e [/code] alla fine, apparir· cosÌ:
+Ma inserendo [code] prima e [/code] alla fine, apparir√° cos√≠:
 <pre style="border: 1px solid #dde; background-color: #ffe; padding: 0px 0px 0px 10px">
   _____  _
  |  __ \| |
@@ -146,11 +146,11 @@ Ma inserendo [code] prima e [/code] alla fine, apparir· cosÌ:
 </pre>
 
     <h3>Citare il testp: [quote]...[/quote] or [quote=...]...[/quote]</h3>
-    Se si vuole evidenziare del testo, si puÛ utilizzare questo codice. Si
-    puÛ scegliere se si desidera includere il nome della persona da citare
+    Se si vuole evidenziare del testo, si pu√≥ utilizzare questo codice. Si
+    pu√≥ scegliere se si desidera includere il nome della persona da citare
     oppure no. Per esempio:<br/><br/>
     <tt>
-    [quote]DubaiMania.NET È il miglior sito![/quote]<br/>
+    [quote]DubaiMania.NET √© il miglior sito![/quote]<br/>
     [quote=Dall'Amleto, di William Shakespeare]<br/>
     Essere o non essere, --questo il dilemma:--<br/>
     Che questa nobile mente soffra<br/>
@@ -159,8 +159,8 @@ Ma inserendo [code] prima e [/code] alla fine, apparir· cosÌ:
     E metterseli contro?<br/>
     [/quote]
     </tt><br/><br/>
-    Diventer·:<br/><br/>
-    <blockquote class="bbcode">Quote:<div>DubaiMania.NET È il miglior sito!</div></blockquote>
+    Diventer√°:<br/><br/>
+    <blockquote class="bbcode">Quote:<div>DubaiMania.NET √© il miglior sito!</div></blockquote>
     <blockquote class="bbcode">Quote:<div><strong>Dall'Amleto, di William Shakespeare</strong><br />
     Essere o non essere, --questo il dilemma:--
     <br />
@@ -174,10 +174,10 @@ Ma inserendo [code] prima e [/code] alla fine, apparir· cosÌ:
     <br /></div></blockquote>
 
     <h3>Aggiungere linea di separazione: [hr]</h3>
-    Per aggiungere una linea di separazione si puÛ usare [hr].
-    Apparir· cosÌ:
+    Per aggiungere una linea di separazione si pu√≥ usare [hr].
+    Apparir√° cos√≠:
     <hr>
-    Questa funzione servir· soprattutto per aggiungere una struttura ad un lungo messaggio
+    Questa funzione servir√° soprattutto per aggiungere una struttura ad un lungo messaggio
 
     <h3>Itemized list:<br/>[list]<br/>[*] item 1<br/>[*] item 2<br/>[/list]</h3>
 

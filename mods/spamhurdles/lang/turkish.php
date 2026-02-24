@@ -3,24 +3,24 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
 (
     // Code CAPTCHA
     "CaptchaTitle" =>
-        "Spam korumasý:",
+        "Spam korumasÃ½:",
     "CaptchaExplain" =>
-        "Lütfen aþaðýdaki kodu giriniz. Bu koruma otomatik hesap açan
-         botlar için geliþtirilmiþtir.",
+        "LÃ¼tfen aÃ¾aÃ°Ã½daki kodu giriniz. Bu koruma otomatik hesap aÃ§an
+         botlar iÃ§in geliÃ¾tirilmiÃ¾tir.",
     "CaptchaUnclearExplain" =>
-        "Eðer kodu okumakta zorlanýyorsanýz, sadece tahmin edin.
-         Eðer yanlýþ kod girerseniz, yeniden girmeniz için yeni bir kod
-         yaratýlacaktýr.",
+        "EÃ°er kodu okumakta zorlanÃ½yorsanÃ½z, sadece tahmin edin.
+         EÃ°er yanlÃ½Ã¾ kod girerseniz, yeniden girmeniz iÃ§in yeni bir kod
+         yaratÃ½lacaktÃ½r.",
     "CaptchaSpoken" =>
-        "Kodu konuþma formunda dinle. (Not: Konuþma formu ingilizcedir.)",
+        "Kodu konuÃ¾ma formunda dinle. (Not: KonuÃ¾ma formu ingilizcedir.)",
     "CaptchaFieldLabel" =>
         "Kodu Gir: ",
     "CaptchaWrongCode" =>
-        "Kodu verildiði gibi girmediniz. Lütfen tekrar deneyiniz.",
+        "Kodu verildiÃ°i gibi girmediniz. LÃ¼tfen tekrar deneyiniz.",
 
     // Mathematical CAPTCHA
     "MaptchaTitle" =>
-        "Spam korumasý:",
+        "Spam korumasÃ½:",
     "MaptchaExplain" =>
         "Please, solve the mathematical question and enter the answer in
          the input field below. This is for blocking bots that try to post
@@ -37,7 +37,7 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
 
     // Javascript CAPTCHA.
     "JavascriptCaptchaNoscript" =>
-        "[Lütfen tarayýcýnýzýn JavaScript seçeneðini aktif hale getiriniz.]",
+        "[LÃ¼tfen tarayÃ½cÃ½nÃ½zÃ½n JavaScript seÃ§eneÃ°ini aktif hale getiriniz.]",
 
     // A message that is shown when a bot post is suspected.
     "PostingRejected" =>

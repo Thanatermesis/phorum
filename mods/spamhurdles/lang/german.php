@@ -7,7 +7,7 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
     "CaptchaExplain" =>
         "Bitte gib den Code aus dem unten stehenden Bild in das
          Eingabefeld ein. Damit werden Bots, die versuchen dieses
-         Formular automatisch auszufüllen, geblockt.",
+         Formular automatisch auszufÃ¼llen, geblockt.",
     "CaptchaUnclearExplain" =>
         "Wenn der Code schwer zu lesen ist, versuche einfach zu raten.
          Wenn du einen falschen Code eingibst, wird einfach ein neues
@@ -17,16 +17,16 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
     "CaptchaFieldLabel" =>
         "Code eingeben: ",
     "CaptchaWrongCode" =>
-        "Du hast einen falschen Code für die Spamschutz-Abfrage eingegeben.
+        "Du hast einen falschen Code fÃ¼r die Spamschutz-Abfrage eingegeben.
          Bitte versuche es noch einmal.",
 
     // Mathematical CAPTCHA
     "MaptchaTitle" =>
         "Spamschutz:",
     "MaptchaExplain" =>
-        "Bitte gib die Lösung der Matheaufgabe in das Eingabefeld ein.
+        "Bitte gib die LÃ¶sung der Matheaufgabe in das Eingabefeld ein.
          Damit werden Bots, die versuchen dieses Formular automatisch
-         auszufüllen, geblockt.",
+         auszufÃ¼llen, geblockt.",
     "MaptchaQuestion" =>
         "Frage: Was ergibt {NUMBER1} plus {NUMBER2}?",
     "MaptchaSpoken" =>
@@ -34,7 +34,7 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
     "MaptchaFieldLabel" =>
         "Antwort: ",
     "MaptchaWrongAnswer" =>
-        "Du hast eine falsche Antwort für die Spamschutz-Abfrage eingegeben.
+        "Du hast eine falsche Antwort fÃ¼r die Spamschutz-Abfrage eingegeben.
          Bitte versuche es noch einmal.",
 
     // Javascript CAPTCHA.

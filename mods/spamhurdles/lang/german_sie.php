@@ -7,7 +7,7 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
     "CaptchaExplain" =>
         "Geben Sie bitte den Code aus dem unten stehenden Bild in das
          Eingabefeld ein. Damit werden Spamprogramme, die versuchen,
-         dieses Formular automatisch auszufüllen, geblockt.",
+         dieses Formular automatisch auszufÃ¼llen, geblockt.",
     "CaptchaUnclearExplain" =>
         "Wenn der Code schwer zu lesen ist, raten Sie einfach.
          Bei einem falschen Code wird ein neues Bild erzeugt und Sie
@@ -17,16 +17,16 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
     "CaptchaFieldLabel" =>
         "Code eingeben: ",
     "CaptchaWrongCode" =>
-        "Sie haben einen falschen Code für die Spamschutz-Abfrage eingegeben.
+        "Sie haben einen falschen Code fÃ¼r die Spamschutz-Abfrage eingegeben.
          Bitte versuchen Sie es noch einmal.",
 
     // Mathematical CAPTCHA
     "MaptchaTitle" =>
         "Spamschutz:",
     "MaptchaExplain" =>
-        "Bitte geben Sie die Lösung der Rechenaufgabe in das Eingabefeld ein.
+        "Bitte geben Sie die LÃ¶sung der Rechenaufgabe in das Eingabefeld ein.
          Damit werden Spamprogramme, die versuchen, dieses Formular
-         automatisch auszufüllen, geblockt.",
+         automatisch auszufÃ¼llen, geblockt.",
     "MaptchaQuestion" =>
         "{NUMBER1} plus {NUMBER2} = ?",
     "MaptchaSpoken" =>

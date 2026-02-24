@@ -3,29 +3,29 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
 (
     // Code CAPTCHA
     "CaptchaTitle" =>
-        "Prevención de SPAM:",
+        "PrevenciÃ³n de SPAM:",
     "CaptchaExplain" =>
-        "Porfavor introduce el código que ves abajo en el espacio
+        "Porfavor introduce el cÃ³digo que ves abajo en el espacio
          proporcionado. ",
     "CaptchaUnclearExplain" =>
         "Si se te dificulta su lectura, adivinalo. Si introduces un
-         código erróneo, se creará una nueva imagen.",
+         cÃ³digo errÃ³neo, se crearÃ¡ una nueva imagen.",
     "CaptchaSpoken" =>
-        "Escucha el código.",
+        "Escucha el cÃ³digo.",
     "CaptchaFieldLabel" =>
-        "Introduce el código: ",
+        "Introduce el cÃ³digo: ",
     "CaptchaWrongCode" =>
-        "No proporcionaste el código correcto, porfavor intentalo de nuevo.",
+        "No proporcionaste el cÃ³digo correcto, porfavor intentalo de nuevo.",
 
     // Mathematical CAPTCHA
     "MaptchaTitle" =>
-        "Prevención de Spam:",
+        "PrevenciÃ³n de Spam:",
     "MaptchaExplain" =>
-        "Porfavor, soluciona el problema matemático en el campo
+        "Porfavor, soluciona el problema matemÃ¡tico en el campo
          proporcionado abajo. Esta es una forma de blocker robots que
-         intentan postear automáticamente.",
+         intentan postear automÃ¡ticamente.",
     "MaptchaQuestion" =>
-        "Pregunta: cuánto es {NUMBER1} mas {NUMBER2}?",
+        "Pregunta: cuÃ¡nto es {NUMBER1} mas {NUMBER2}?",
     "MaptchaSpoken" =>
         "Escucha la pregunta.",
     "MaptchaFieldLabel" =>
@@ -35,7 +35,7 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
 
     // Javascript CAPTCHA.
     "JavascriptCaptchaNoscript" =>
-        "[Porfavor, activa JavaScript para ver el código]",
+        "[Porfavor, activa JavaScript para ver el cÃ³digo]",
 
     // A message that is shown when a bot post is suspected.
     "PostingRejected" =>

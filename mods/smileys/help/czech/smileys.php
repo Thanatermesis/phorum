@@ -8,20 +8,20 @@
 ?>
 <html>
   <head>
-    <title>Smajlící nápovìda</title>
+    <title>SmajlÃ­cÃ­ nÃ¡povÃ¬da</title>
     <link rel="stylesheet" type="text/css" href="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/smileys/help/help.css"/>
   </head>
   <body>
-    <h2>Smajlící nápovìda</h2>
+    <h2>SmajlÃ­cÃ­ nÃ¡povÃ¬da</h2>
 
-    Na tomto fóru mùete pouít smajlíky. Smajlící jsou øetìzce znakù, které se ve zprávì zobrazují jako obrázky.
-    Ty se pouívají pro vyjádøení nálady autora pøíspìvku. V tabulce dole jsou všechny dostupné smajlíky. Ve sloupci "Kde"
-    je popis, kde je moné smajlík pouít (S = subjekt zprávy, B = tìlo zprávy, BS = všude).
+    Na tomto fÃ³ru mÃ¹Âete pouÂÃ­t smajlÃ­ky. SmajlÃ­cÃ­ jsou Ã¸etÃ¬zce znakÃ¹, kterÃ© se ve zprÃ¡vÃ¬ zobrazujÃ­ jako obrÃ¡zky.
+    Ty se pouÂÃ­vajÃ­ pro vyjÃ¡dÃ¸enÃ­ nÃ¡lady autora pÃ¸Ã­spÃ¬vku. V tabulce dole jsou vÂšechny dostupnÃ© smajlÃ­ky. Ve sloupci "Kde"
+    je popis, kde je moÂnÃ© smajlÃ­k pouÂÃ­t (S = subjekt zprÃ¡vy, B = tÃ¬lo zprÃ¡vy, BS = vÂšude).
     <br/><br/>
     <table cellspacing="1" width="100%">
     <tr>
-      <th class="PhorumAdminTableHead">Smajlík</th>
-      <th class="PhorumAdminTableHead">Obrázek</th>
+      <th class="PhorumAdminTableHead">SmajlÃ­k</th>
+      <th class="PhorumAdminTableHead">ObrÃ¡zek</th>
       <th class="PhorumAdminTableHead">Popis</th>
       <th class="PhorumAdminTableHead">Kde</th>
     </tr>
