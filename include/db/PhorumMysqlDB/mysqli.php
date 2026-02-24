@@ -200,13 +200,17 @@ class PhorumMysqlDB_mysqli extends PhorumDB
 
             // For queries where we are going to retrieve multiple rows, we
             // use an unuffered query result.
-            if ($return === DB_RETURN_ASSOCS || $return === DB_RETURN_ROWS) {
-                 $res = FALSE;
-                 if (mysqli_real_query($conn, $sql) !== FALSE) {
-                     $res = mysqli_use_result($conn);
-                 }
-            } else {
-                 $res = mysqli_query($conn, $sql);
+            try {
+                if ($return === DB_RETURN_ASSOCS || $return === DB_RETURN_ROWS) {
+                     $res = FALSE;
+                     if (mysqli_real_query($conn, $sql) !== FALSE) {
+                         $res = mysqli_use_result($conn);
+                     }
+                } else {
+                     $res = mysqli_query($conn, $sql);
+                }
+            } catch (mysqli_sql_exception $e) {
+                $res = FALSE;
             }
 
             if ($debug) {
