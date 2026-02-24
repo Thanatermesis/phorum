@@ -71,7 +71,7 @@ $frm->addrow("Compare As", $frm->select_tag("pcre", $match_types, $pcre));
 
 $frm->show();
 
-echo "If using PCRE for comparison, \"Sting To Match\" should be a valid PCRE expression. See <a href=\"http://php.net/pcre\">the PHP manual</a> for more information.";
+echo "If using PCRE for comparison, \"Sting To Match\" should be a valid PCRE expression. See <a href=\"https://php.net/pcre\">the PHP manual</a> for more information.";
 
 if($curr=="NEW"){
 

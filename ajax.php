@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -164,7 +164,7 @@ if(empty($PHORUM['user']['user_id'])) {
  *
  * For this hook implementation, a GET based URL to fire this
  * Ajax call could look like
- * <literal>http://example.com/ajax.php?call=sayhello,name=JohnDoe</literal>.
+ * <literal>https://example.com/ajax.php?call=sayhello,name=JohnDoe</literal>.
  */
 $call_hook = 'ajax_' . $ajax_call;
 if (isset($PHORUM['hooks'][$call_hook])) {

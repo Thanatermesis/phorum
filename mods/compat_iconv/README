@@ -6,7 +6,7 @@ This module implements a fallback for PHP's iconv() function,
 in case the "iconv" PHP extension is not enabled.
 
 Thanks to Mikołaj Jędrzejak for the implementation of his
-Convert Charset class. See: http://mikolajj.republika.pl/
+Convert Charset class. See: https://mikolajj.republika.pl/
 
 Install:
 --------

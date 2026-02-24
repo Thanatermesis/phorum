@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -411,7 +411,7 @@ if ($success)
      *     {
      *         // For some reason, we find it interesting to redirect
      *         // the user to the Disney site after posting a message.
-     *         return "http://www.disney.com/";
+     *         return "https://www.disney.com/";
      *     }
      *     </hookcode>
      */

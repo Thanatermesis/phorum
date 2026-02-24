@@ -97,15 +97,15 @@
     Estas son etiquetas para enlazar a otros recursos.
     Estos son algunos ejemplos: <br/><br/>
     <tt>
-    [img]http://www.somesite.com/cool/thumbsup.gif[/img]<br/>
-    [url]http://www.phorum.org[/url]<br/>
-    [url=http://www.phorum.org]Visit Phorum.org![/url]<br/>
+    [img]https://www.somesite.com/cool/thumbsup.gif[/img]<br/>
+    [url]https://www.phorum.org[/url]<br/>
+    [url=https://www.phorum.org]Visit Phorum.org![/url]<br/>
     [email]someuser@somesite.com[/email]
     </tt></br></br>
     Aparecerá como:<br/><br/>
     <img src="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/bbcode/help/thumbsup.gif" border="0"/><br/>
-    [<a href="http://www.phorum.org">www.phorum.org</a>]<br/>
-    <a rel="nofollow" href="http://www.phorum.org">Visit Phorum.org!</a><br/>
+    [<a href="https://www.phorum.org">www.phorum.org</a>]<br/>
+    <a rel="nofollow" href="https://www.phorum.org">Visit Phorum.org!</a><br/>
     <a href="mailto:someuser@somesite.com">someuser@somesite.com</a>
 
     <h3>Texto monoespaciado, preformateado: [code]...[/code]</h3>

@@ -3,6 +3,6 @@ desc: This module implements a fallback for PHP's stripos() function, in case th
 category: compatibility
 version: 1.0.0
 author: Phorum Dev Team
-url: http://www.phorum.org/
+url: https://www.phorum.org/
 
 compat:stripos|stripos

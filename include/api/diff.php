@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -31,13 +31,13 @@
  * Edits made by Brian Moon <brian@phorum.org> and
  * Maurice Makaay <maurice@phorum.org> of the Phorum Dev Team to fit
  * the Phorum coding standards. Original located at
- * http://shaunwagner.com/projects/php/diff_patch.html
+ * https://shaunwagner.com/projects/php/diff_patch.html
  * **********************************************************************
  *
  * @package    PhorumAPI
  * @subpackage Diff
  * @copyright  2016, Phorum Development Team
- * @license    Phorum License, http://www.phorum.org/license.txt
+ * @license    Phorum License, https://www.phorum.org/license.txt
  */
 
 /**

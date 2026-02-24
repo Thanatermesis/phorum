@@ -32,9 +32,9 @@ DETAILED CONFIGURATION FIELD DESCRIPTION
   The type of caching backend. Typically 'file' as that has to work.
   Two more scaleable backends are
   memcached, using
-    * the memcache pecl extension (http://www.php.net/manual/en/book.memcache.php) and
-    * memcached (http://www.danga.com/memcached/)
-  apc, using the APC pecl extension (http://www.php.net/manual/en/book.apc.php)
+    * the memcache pecl extension (https://www.php.net/manual/en/book.memcache.php) and
+    * memcached (https://www.danga.com/memcached/)
+  apc, using the APC pecl extension (https://www.php.net/manual/en/book.apc.php)
 
 * directory:
 

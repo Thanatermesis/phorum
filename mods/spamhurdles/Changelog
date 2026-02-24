@@ -97,7 +97,7 @@ v1.1.4
 v1.1.3
 
     - Implemented new CAPTCHA type: reCAPTCHA.
-      See http://www.recaptcha.net/ for more info.
+      See https://www.recaptcha.net/ for more info.
 
     - Checking of the CAPTCHA answer is now done from the CAPTCHA objects
       (new method check_answer()). Before, we had a generic piece of code

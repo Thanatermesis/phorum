@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -23,7 +23,7 @@
  * @package    PhorumAPI
  * @subpackage Charset
  * @copyright  2016, Phorum Development Team
- * @license    Phorum License, http://www.phorum.org/license.txt
+ * @license    Phorum License, https://www.phorum.org/license.txt
  */
 
 // {{{ Function: phorum_api_charset_convert_to_utf8()
@@ -48,7 +48,7 @@ function phorum_api_charset_convert_to_utf8($var)
     // Windows-1252. The 1252 characters sometimes get in messages when users
     // cut-and-paste from Word and for some reason these are not handled
     // by the iconv() conversion. Thanks to Aidan Kehoe for posting this
-    // map in the PHP manual pages (http://www.php.net/utf8_encode).
+    // map in the PHP manual pages (https://www.php.net/utf8_encode).
 
     static $cp1252_map = array
     (

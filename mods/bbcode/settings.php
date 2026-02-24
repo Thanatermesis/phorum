@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -103,7 +103,7 @@ $row = $frm->addrow("Enable posting option \"disable BBcode\"", $frm->checkbox("
 $frm->addhelp($row, "Enable posting option \"disable BBcode\"", "If this feature is enabled, then your users can get an extra option in the posting editor for disabling the BBcode handling for the posted message. This can be useful if the user wants to post a text about BBcode tags or a text that contains strings that unintentionally match BBcode tags.<br/><br/>To make this option visible, you will have to add the code <b>{HOOK \"tpl_editor_disable_bbcode\"}</b> to the posting.tpl template file at an appropriate spot.");
 
 $row = $frm->addrow("Enable BBcode escape sequence \\[...]", $frm->checkbox("enable_bbcode_escape", "1", "Yes", $PHORUM["mod_bbcode"]["enable_bbcode_escape"]));
-$frm->addhelp($row, "Enable BBcode escape sequence", "If this feature is enabled, then your users can prepend BBcode tags with a backslash character in order to let the BBcode module ignore the tag. This is mostly useful for posting BBcode examples in a forum message. In the final rendered message, the backslash character will be hidden. For example, the following code could be added to a message:<br/><pre>\\[b]example for bold text\\[/b]<br/>\\[url=http://www.phorum.org]URL example\\[/url]<br/><br/>These would be showed in the final message as:<br/><pre>[b]example for bold text[/b]<br/>[url=http://www.phorum.org]URL example[/url]");
+$frm->addhelp($row, "Enable BBcode escape sequence", "If this feature is enabled, then your users can prepend BBcode tags with a backslash character in order to let the BBcode module ignore the tag. This is mostly useful for posting BBcode examples in a forum message. In the final rendered message, the backslash character will be hidden. For example, the following code could be added to a message:<br/><pre>\\[b]example for bold text\\[/b]<br/>\\[url=https://www.phorum.org]URL example\\[/url]<br/><br/>These would be showed in the final message as:<br/><pre>[b]example for bold text[/b]<br/>[url=https://www.phorum.org]URL example[/url]");
 
 $row = $frm->addbreak("Activation of BBcode tags");
 $frm->addhelp($row, "Activation of BBcode tags", "Using the options below, you can configure which BBcode tags you want to make available to your users.<br/><br/>For most of the tags, you can additionally enable the editor tools button. If you have enabled the Editor Tools module, then doing so will add a button to the editor tool bar for that tag.");

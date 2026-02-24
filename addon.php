@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -47,7 +47,7 @@
 // 3) Call the addon code through the addon.php script (where 1 in the
 //    URL indicates the current forum id):
 //
-//    http://your.phorum.site/addon.php?1,module=foo
+//    https://your.phorum.site/addon.php?1,module=foo
 //
 //
 // LINKING TO AN ADDON SCRIPT:
@@ -65,7 +65,7 @@
 // implement multiple addon script actions, then handle this by means
 // of extra custom parameters for the addon.php URL, for example:
 //
-//    http://your.phorum.site/addon.php?1,module=foo,action=bar
+//    https://your.phorum.site/addon.php?1,module=foo,action=bar
 //
 // Using this, your addon function can check $PHORUM["args"]["action"]
 // to see what action to perform. Generating an URL for this example

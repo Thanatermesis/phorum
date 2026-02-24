@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -168,7 +168,7 @@ if($_GET["curr"] && $_GET["delete"]){
         \"IP Address/Hostname\" checks the sender's IP
     ");
 
-    $row = $frm->addrow("Compare As", $frm->select_tag("pcre", $match_types, $pcre) .  "<div style=\"font-size:x-small\">If using PCRE for comparison, \"String To Match\" should be a valid PCRE expression.<br/>See <a href=\"http://php.net/pcre\" target=\"_blank\">the PHP manual</a> for more information about PCRE.</div>");
+    $row = $frm->addrow("Compare As", $frm->select_tag("pcre", $match_types, $pcre) .  "<div style=\"font-size:x-small\">If using PCRE for comparison, \"String To Match\" should be a valid PCRE expression.<br/>See <a href=\"https://php.net/pcre\" target=\"_blank\">the PHP manual</a> for more information about PCRE.</div>");
 
     $frm->addhelp($row, "Compare As", "
         This setting can be used to specify the matching method
@@ -182,7 +182,7 @@ if($_GET["curr"] && $_GET["delete"]){
 
           <li><b>PCRE</b><br/>
               The \"String To Match\" field will be treated as
-              a <a href=\"http://www.php.net/pcre\">Perl Compatible
+              a <a href=\"https://www.php.net/pcre\">Perl Compatible
               Regular Expression</a>.</li>
         </ul>
     ");

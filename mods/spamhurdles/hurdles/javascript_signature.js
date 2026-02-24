@@ -28,7 +28,7 @@ function spamhurdle_javascript_signature(id)
  * Version 2.1 Copyright (C) Paul Johnston 1999 - 2002.
  * Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet
  * Distributed under the BSD License
- * See http://pajhome.org.uk/crypt/md5 for more info.
+ * See https://pajhome.org.uk/crypt/md5 for more info.
  */
 
 /*

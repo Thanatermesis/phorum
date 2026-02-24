@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -23,7 +23,7 @@
  * @package    PhorumAPI
  * @subpackage Core
  * @copyright  2016, Phorum Development Team
- * @license    Phorum License, http://www.phorum.org/license.txt
+ * @license    Phorum License, https://www.phorum.org/license.txt
  *
  * @todo Write examples for API calls inline in the API call documentation.
  *       Examples that are in separate files (like the user API examples
@@ -163,7 +163,7 @@ if (!empty($missing_compat)) { ?>
     <li>Install the required extensions in PHP (ask your host if you
         do not own the system) or</li>
     <li>download and install compatibility modules from the
-        <a href="http://www.phorum.org/downloads.php">Phorum website</a>.</li>
+        <a href="https://www.phorum.org/downloads.php">Phorum website</a>.</li>
     </ul>
     <?php
     exit;

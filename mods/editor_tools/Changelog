@@ -172,7 +172,7 @@ Changelog:
 
     - Some small changes to the help files.
 
-    - Just http:// is no longer accepted for URL and image links.
+    - Just https:// is no longer accepted for URL and image links.
 
 2006-07-19 v1.1.7
 
@@ -189,7 +189,7 @@ Changelog:
 
     - Changed all css classnames and javascript ids to not contain
       any underscores (thanks to Brian for the hint and pointer to
-      http://www.htmlite.com/CSS003a.php).
+      https://www.htmlite.com/CSS003a.php).
 
     - Changed ".editor-tools-button" in the css to the more specific
       "#editor-tools .editor-tools-button", because it wasn't

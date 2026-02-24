@@ -31,7 +31,7 @@
 #    The Unicode values in this table were produced as the result of
 #    applying the algorithm described in the section "Populating a Unicode
 #    space" in the document "Unicode and Glyph Names," at
-#    http://partners.adobe.com/asn/developer/typeforum/unicodegn.html
+#    https://partners.adobe.com/asn/developer/typeforum/unicodegn.html
 #    to the characters in Zapf Dingbats. Note that some characters, such as
 #    "space", are mapped to 2 Unicode values. 14 characters have assignments in
 #    the Corporate Use Subarea; these are indicated by "(CUS)" in field 4.

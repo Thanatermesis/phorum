@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -23,7 +23,7 @@
  * @package    PhorumAPI
  * @subpackage Feed
  * @copyright  2016, Phorum Development Team
- * @license    Phorum License, http://www.phorum.org/license.txt
+ * @license    Phorum License, https://www.phorum.org/license.txt
  */
 
 // {{{ Function: phorum_api_feed_rss()
@@ -65,7 +65,7 @@ function phorum_api_feed_rss($messages, $forums, $url, $title, $description, $re
     $generator   = phorum_api_format_htmlspecialchars('Phorum '.PHORUM);
 
     $buffer = "<?xml version=\"1.0\" encoding=\"{$PHORUM['DATA']['CHARSET']}\"?>\n";
-    $buffer.= "<rss version=\"2.0\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n";
+    $buffer.= "<rss version=\"2.0\" xmlns:dc=\"https://purl.org/dc/elements/1.1/\">\n";
     $buffer.= " <channel>\n";
     $buffer.= "  <title>$title</title>\n";
     $buffer.= "  <description>$description</description>\n";

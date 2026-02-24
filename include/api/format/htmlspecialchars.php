@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -23,7 +23,7 @@
  * @package    PhorumAPI
  * @subpackage Formatting
  * @copyright  2016, Phorum Development Team
- * @license    Phorum License, http://www.phorum.org/license.txt
+ * @license    Phorum License, https://www.phorum.org/license.txt
  */
 
 

@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -31,7 +31,7 @@
  * @package    PhorumAPI
  * @subpackage FileStorage
  * @copyright  2016, Phorum Development Team
- * @license    Phorum License, http://www.phorum.org/license.txt
+ * @license    Phorum License, https://www.phorum.org/license.txt
  */
 
 require_once PHORUM_PATH.'/include/api/buffer.php';
@@ -1249,7 +1249,7 @@ function phorum_api_file_safe_to_view($file)
     $safe_to_view  = TRUE;
 
     // Based on info from:
-    // http://webblaze.cs.berkeley.edu/2009/content-sniffing/
+    // https://webblaze.cs.berkeley.edu/2009/content-sniffing/
     //
     // Sniffing buffer in various browsers:
     // - MSIE7 = 256 Bytes

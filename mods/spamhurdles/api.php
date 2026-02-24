@@ -657,7 +657,7 @@ function spamhurdles_get_hurdles_for_form($form_id)
 /******************************************************************************
  * iScramble - Scramble HTML source to make it difficult to read              *
  *                                                                            *
- * Visit the iScramble homepage at http://www.z-host.com/php/iscramble        *
+ * Visit the iScramble homepage at https://www.z-host.com/php/iscramble        *
  *                                                                            *
  * Copyright (C) 2003 Ian Willis. All rights reserved.                        *
  *                                                                            *

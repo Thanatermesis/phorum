@@ -55,9 +55,9 @@
  * @package    Crypt_AES
  * @author     Jim Wigginton <terrafrost@php.net>
  * @copyright  MMVIII Jim Wigginton
- * @license    http://www.gnu.org/licenses/lgpl.txt
+ * @license    https://www.gnu.org/licenses/lgpl.txt
  * @version    $Id: AES.php,v 1.3 2009/05/27 16:15:23 terrafrost Exp $
- * @link       http://phpseclib.sourceforge.net
+ * @link       https://phpseclib.sourceforge.net
  */
 
 /**
@@ -74,13 +74,13 @@ require_once dirname(__FILE__).'/rijndael.php';
 /**
  * Encrypt / decrypt using the Electronic Code Book mode.
  *
- * @link http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Electronic_codebook_.28ECB.29
+ * @link https://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Electronic_codebook_.28ECB.29
  */
 define('CRYPT_AES_MODE_ECB', 1);
 /**
  * Encrypt / decrypt using the Code Book Chaining mode.
  *
- * @link http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Cipher-block_chaining_.28CBC.29
+ * @link https://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Cipher-block_chaining_.28CBC.29
  */
 define('CRYPT_AES_MODE_CBC', 2);
 /**#@-*/
@@ -190,7 +190,7 @@ class Crypt_AES extends Crypt_Rijndael {
      * same manner.  Other common approaches to padding and the reasons why it's necessary are discussed in the following
      * URL:
      *
-     * {@link http://www.di-mgt.com.au/cryptopad.html http://www.di-mgt.com.au/cryptopad.html}
+     * {@link https://www.di-mgt.com.au/cryptopad.html https://www.di-mgt.com.au/cryptopad.html}
      *
      * An alternative to padding is to, separately, send the length of the file.  This is what SSH, in fact, does.
      * strlen($plaintext) will still need to be a multiple of 16, however, arbitrary values can be added to make it that
@@ -235,7 +235,7 @@ class Crypt_AES extends Crypt_Rijndael {
      */
     function decrypt($ciphertext)
     {
-        // we pad with chr(0) since that's what mcrypt_generic does.  to quote from http://php.net/function.mcrypt-generic :
+        // we pad with chr(0) since that's what mcrypt_generic does.  to quote from https://php.net/function.mcrypt-generic :
         // "The data is padded with "\0" to make sure the length of the data is n * blocksize."
         $ciphertext = str_pad($ciphertext, (strlen($ciphertext) + 15) & 0xFFFFFFF0, chr(0));
 
@@ -265,7 +265,7 @@ class Crypt_AES extends Crypt_Rijndael {
      *
      * If MCrypt is being used, empty strings will be used, unless otherwise specified.
      *
-     * @link http://php.net/function.mcrypt-module-open#function.mcrypt-module-open
+     * @link https://php.net/function.mcrypt-module-open#function.mcrypt-module-open
      * @access public
      * @param optional Integer $algorithm_directory
      * @param optional Integer $mode_directory

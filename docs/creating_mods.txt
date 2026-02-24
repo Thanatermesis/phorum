@@ -9,7 +9,7 @@ Phorum5.
 For much of this document, we will be talking about an example module
 "foo". Of course you will not name your module "foo", but something much
 more appropriate. If you're not familiar with the terms "foo" and "bar",
-you can visit http://en.wikipedia.org/wiki/Metasyntactic_variable
+you can visit https://en.wikipedia.org/wiki/Metasyntactic_variable
 
 Be sure to read at least the **CAUTIONS AND SECURITY ISSUES** section,
 before making your own modules.
@@ -462,7 +462,7 @@ Table of contents:
    you can make use of the meta information array that is attached
    to each message ($message["meta"]). This array is a regular PHP
    array, which is stored in the database as serialized data
-   (see http://www.php.net/serialize). Because Phorum and other modules
+   (see https://www.php.net/serialize). Because Phorum and other modules
    make use of this meta data as well, you should not squash it,
    neither access the meta data in the database directly. Instead
    use the methods described in this section.
@@ -831,13 +831,13 @@ Table of contents:
    it can be possible for hackers to feed malicous javascript
    code into the browser of users on the forum, causing a security
    risk. If you want to learn more about XSS, please visit
-   http://en.wikipedia.org/wiki/XSS
+   https://en.wikipedia.org/wiki/XSS
 
    To prevent XSS security holes, you must take care that all
    user input is properly sanitized before displaying it on screen.
    Sanitizing can be done by either stripping all HTML from
-   the data (e.g. using http://www.php.net/strip_tags) or by escaping
-   all html characters (using http://www.php.net/htmlspecialchars).
+   the data (e.g. using https://www.php.net/strip_tags) or by escaping
+   all html characters (using https://www.php.net/htmlspecialchars).
 
    Example:
 
@@ -2164,6 +2164,6 @@ Table of contents:
 -------------------------------------------------------------------------------
 
    If you have questions about creating modules for Phorum, please visit
-   the website http://phorum.org/ and ask the development team for help in
+   the website https://phorum.org/ and ask the development team for help in
    the Development forum.
 

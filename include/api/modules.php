@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -27,7 +27,7 @@
  * @package    PhorumAPI
  * @subpackage Modules
  * @copyright  2016, Phorum Development Team
- * @license    Phorum License, http://www.phorum.org/license.txt
+ * @license    Phorum License, https://www.phorum.org/license.txt
  */
 
 // {{{ Variable definitions
@@ -57,7 +57,7 @@ $GLOBALS['PHORUM']['API']['mods_deprecated_hooks'] = array(
 $GLOBALS['PHORUM']['API']['mods_no_longer_bundled'] = array(
     'html' => array(
         'version' => '2.0.0',
-        'url'     => 'http://www.phorum.org/phorum5/read.php?62,140066'
+        'url'     => 'https://www.phorum.org/phorum5/read.php?62,140066'
     )
 );
 // }}}

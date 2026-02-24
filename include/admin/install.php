@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -228,10 +228,10 @@ if(count($_POST)){
                 if(!empty($_SERVER["HTTP_REFERER"])) {
                     $http_path=$_SERVER["HTTP_REFERER"];
                 } elseif(!empty($_SERVER['HTTP_HOST'])) {
-                    $http_path="http://".$_SERVER['HTTP_HOST'];
+                    $http_path="https://".$_SERVER['HTTP_HOST'];
                     $http_path.=$_SERVER['PHP_SELF'];
                 } else {
-                    $http_path="http://".$_SERVER['SERVER_NAME'];
+                    $http_path="https://".$_SERVER['SERVER_NAME'];
                     $http_path.=$_SERVER['PHP_SELF'];
                 }
                 $PHORUM['DB']->update_settings(array("http_path"=>dirname($http_path)));

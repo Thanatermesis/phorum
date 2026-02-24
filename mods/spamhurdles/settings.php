@@ -100,7 +100,7 @@ else
 $image_url = $PHORUM['http_path'] . '/mods/spamhurdles/images/' .
              'datasphorum_thumb.jpg';
 ?>
-<a href="http://geekandpoke.typepad.com" target="_blank">
+<a href="https://geekandpoke.typepad.com" target="_blank">
   <img style="border:none; padding:5px;float:right"
        title="Click here for more Geek and Poke cartoons!"
        alt="Geek and Poke cartoon"
@@ -475,7 +475,7 @@ $row = $frm->addrow(
         $PHORUM["mod_spamhurdles"]["captcha"]["spoken_captcha"]
     )
 );
-$flite_url = "http://www.speech.cs.cmu.edu/flite/";
+$flite_url = "https://www.speech.cs.cmu.edu/flite/";
 $frm->addhelp(
     $row, "Enable spoken CAPTCHA",
     "Vision impaired people can have trouble reading and thus solving a
@@ -505,7 +505,7 @@ $frm->addmessage(
     "<div id=\"settings_recaptcha\" class=\"input-form-td\"
         style=\"margin:0; padding:10px; border: 1px solid navy\">
       For using reCAPTCHA, you need a (free) public and private key.
-      Please signup at <a href=\"http://recaptcha.net\" target=\"_new\">the
+      Please signup at <a href=\"https://recaptcha.net\" target=\"_new\">the
       reCAPTCHA</a> web site and enter the public and private key for your
       web site's domain in the fields below.<br/><br/>
       <table>

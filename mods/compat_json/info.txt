@@ -3,7 +3,7 @@ desc: This module implements a fallback for PHP's json_encode() and json_decode(
 category: compatibility
 version: 1.0.0
 author: Phorum Dev Team
-url: http://www.phorum.org/
+url: https://www.phorum.org/
 
 compat:json|json_encode
 compat:json|json_decode

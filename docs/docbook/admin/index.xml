@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
+"https://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd" [
 
     <!ENTITY book_description 'the Phorum administrator reference manual'>
     <!ENTITY book_title 'Phorum Administrator Reference Manual'>
@@ -13,9 +13,9 @@
     <!ENTITY part_features SYSTEM "part_features.xml">
     <!ENTITY part_modules SYSTEM "part_modules.xml">
 
-    <!ENTITY phorum.org '<ulink url="http://www.phorum.org/">Phorum.org</ulink>'>
-    <!ENTITY www.phorum.org '<ulink url="http://www.phorum.org/">http://www.phorum.org</ulink>'>
-    <!ENTITY listofmodules '<ulink url="http://phorum.org/cgi-bin/trac.cgi/wiki/ListOfModules52">list of modules</ulink>'>
+    <!ENTITY phorum.org '<ulink url="https://www.phorum.org/">Phorum.org</ulink>'>
+    <!ENTITY www.phorum.org '<ulink url="https://www.phorum.org/">https://www.phorum.org</ulink>'>
+    <!ENTITY listofmodules '<ulink url="https://phorum.org/cgi-bin/trac.cgi/wiki/ListOfModules52">list of modules</ulink>'>
 ]>
 <book lang="en">
   &bookinfo;

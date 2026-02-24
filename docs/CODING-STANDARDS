@@ -2,7 +2,7 @@ Phorum 5 Coding Standards
 =========================
 
 For the most part, Phorum 5 uses the standards set forth in the PEAR Coding
-Standards located at http://pear.php.net/manual/en/standards.php. We do
+Standards located at https://pear.php.net/manual/en/standards.php. We do
 however differ slightly in a few of ways.
 
 1. Header Comment - please use the header comment found in the other Phorum

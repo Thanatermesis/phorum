@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -200,7 +200,7 @@ function editor_tools_handle_email()
 
 function editor_tools_handle_url()
 {
-    var url = 'http://';
+    var url = 'https://';
 
     for (;;)
     {
@@ -214,8 +214,8 @@ function editor_tools_handle_url()
 
         // Check the URL scheme (http, https, ftp and mailto are allowed).
         copy = url.toLowerCase();
-        if (copy == 'http://' || (
-            copy.substring(0,7) != 'http://' &&
+        if (copy == 'https://' || (
+            copy.substring(0,7) != 'https://' &&
             copy.substring(0,8) != 'https://' &&
             copy.substring(0,6) != 'ftp://' &&
             copy.substring(0,7) != 'mailto:')) {
@@ -307,7 +307,7 @@ function editor_tools_handle_size_select(size)
 
 function editor_tools_handle_img()
 {
-    var url = 'http://';
+    var url = 'https://';
 
     for (;;)
     {
@@ -321,8 +321,8 @@ function editor_tools_handle_img()
 
         // Check the URL scheme (http, https, ftp and mailto are allowed).
         var copy = url.toLowerCase();
-        if (copy == 'http://' || (
-            copy.substring(0,7) != 'http://' &&
+        if (copy == 'https://' || (
+            copy.substring(0,7) != 'https://' &&
             copy.substring(0,8) != 'https://' &&
             copy.substring(0,6) != 'ftp://')) {
             alert(editor_tools_translate("invalid image url"));

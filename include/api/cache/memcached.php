@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -23,14 +23,14 @@
  * To use this layer, both a memcached server and the "memcache"
  * PHP pecl module are required.
  *
- * For Memcached, see http://www.danga.com/memcached/
+ * For Memcached, see https://www.danga.com/memcached/
  *
- * For the pecl module, see http://pecl.php.net/package/memcache/
+ * For the pecl module, see https://pecl.php.net/package/memcache/
  *
  * @package    PhorumAPI
  * @subpackage CacheMemcached
  * @copyright  2016, Phorum Development Team
- * @license    Phorum License, http://www.phorum.org/license.txt
+ * @license    Phorum License, https://www.phorum.org/license.txt
  */
 
 if (!defined("PHORUM")) return;

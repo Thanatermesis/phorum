@@ -25,12 +25,12 @@ $PHORUM['DBCONFIG']=array(
 
     // An optional URL to redirect the user to when the database is down.
     // If you want to use this option, then remove the "//" in front of it.
-    //'down_page'     => 'http://www.example.com/phorum/down.html',
+    //'down_page'     => 'https://www.example.com/phorum/down.html',
 
     // An optional URL to redirect the user to when the database has to be
     // upgraded. If you want to use this option, then remove the "//"
     // in front of it.
-    //'upgrade_page'  => 'http://www.example.com/phorum/upgrade.html',
+    //'upgrade_page'  => 'https://www.example.com/phorum/upgrade.html',
 
 
     // Specific options for the "mysql" database layer type.
@@ -58,7 +58,7 @@ $PHORUM['DBCONFIG']=array(
 
     // Specifies the charset used for the "CREATE TABLE" statements and
     // the connection later on. For a list of valid MySQL charsets, see
-    // http://dev.mysql.com/doc/refman/5.0/en/charset-charsets.html
+    // https://dev.mysql.com/doc/refman/5.0/en/charset-charsets.html
     // or run the MySQL query "SHOW CHARACTER SET".
     // Beware: the charset names are different from the ones that are
     // used for specifying web site charsets. For example "utf-8" is not

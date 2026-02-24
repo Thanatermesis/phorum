@@ -2,13 +2,13 @@
 /*
  * This is a PHP library that handles calling reCAPTCHA.
  *    - Documentation and latest version
- *          http://recaptcha.net/plugins/php/
+ *          https://recaptcha.net/plugins/php/
  *    - Get a reCAPTCHA API Key
- *          http://recaptcha.net/api/getkey
+ *          https://recaptcha.net/api/getkey
  *    - Discussion group
- *          http://groups.google.com/group/recaptcha
+ *          https://groups.google.com/group/recaptcha
  *
- * Copyright (c) 2007 reCAPTCHA -- http://recaptcha.net
+ * Copyright (c) 2007 reCAPTCHA -- https://recaptcha.net
  * AUTHORS:
  *   Mike Crawford
  *   Ben Maurer
@@ -35,7 +35,7 @@
 /**
  * The reCAPTCHA server URL's
  */
-define("RECAPTCHA_API_SERVER", "http://api.recaptcha.net");
+define("RECAPTCHA_API_SERVER", "https://api.recaptcha.net");
 define("RECAPTCHA_API_SECURE_SERVER", "https://api-secure.recaptcha.net");
 define("RECAPTCHA_VERIFY_SERVER", "api-verify.recaptcha.net");
 
@@ -106,7 +106,7 @@ function _recaptcha_http_post($host, $path, $data, $port = 80) {
 function recaptcha_get_html ($pubkey, $error = null, $use_ssl = false)
 {
     if ($pubkey == null || $pubkey == '') {
-        die ("To use reCAPTCHA you must get an API key from <a href='http://recaptcha.net/api/getkey'>http://recaptcha.net/api/getkey</a>");
+        die ("To use reCAPTCHA you must get an API key from <a href='https://recaptcha.net/api/getkey'>https://recaptcha.net/api/getkey</a>");
     }
 
     if ($use_ssl) {
@@ -151,7 +151,7 @@ class ReCaptchaResponse {
 function recaptcha_check_answer ($privkey, $remoteip, $challenge, $response)
 {
     if ($privkey == null || $privkey == '') {
-        die ("To use reCAPTCHA you must get an API key from <a href='http://recaptcha.net/api/getkey'>http://recaptcha.net/api/getkey</a>");
+        die ("To use reCAPTCHA you must get an API key from <a href='https://recaptcha.net/api/getkey'>https://recaptcha.net/api/getkey</a>");
     }
 
     if ($remoteip == null || $remoteip == '') {
@@ -198,7 +198,7 @@ function recaptcha_check_answer ($privkey, $remoteip, $challenge, $response)
  * @param string $appname The name of your application
  */
 function recaptcha_get_signup_url ($domain = null, $appname = null) {
-    return "http://recaptcha.net/api/getkey?" .  _recaptcha_qsencode (array ('domain' => $domain, 'app' => $appname));
+    return "https://recaptcha.net/api/getkey?" .  _recaptcha_qsencode (array ('domain' => $domain, 'app' => $appname));
 }
 
 function _recaptcha_aes_pad($val) {
@@ -228,14 +228,14 @@ function _recaptcha_mailhide_urlbase64 ($x) {
 function recaptcha_mailhide_url($pubkey, $privkey, $email) {
     if ($pubkey == '' || $pubkey == null || $privkey == "" || $privkey == null) {
         die ("To use reCAPTCHA Mailhide, you have to sign up for a public and private key, " .
-             "you can do so at <a href='http://mailhide.recaptcha.net/apikey'>http://mailhide.recaptcha.net/apikey</a>");
+             "you can do so at <a href='https://mailhide.recaptcha.net/apikey'>https://mailhide.recaptcha.net/apikey</a>");
     }
 
 
     $ky = pack('H*', $privkey);
     $cryptmail = _recaptcha_aes_encrypt ($email, $ky);
 
-    return "http://mailhide.recaptcha.net/d?k=" . $pubkey . "&c=" . _recaptcha_mailhide_urlbase64 ($cryptmail);
+    return "https://mailhide.recaptcha.net/d?k=" . $pubkey . "&c=" . _recaptcha_mailhide_urlbase64 ($cryptmail);
 }
 
 /**
@@ -260,7 +260,7 @@ function _recaptcha_mailhide_email_parts ($email) {
  * Gets html to display an email address given a public an private key.
  * to get a key, go to:
  *
- * http://mailhide.recaptcha.net/apikey
+ * https://mailhide.recaptcha.net/apikey
  */
 function recaptcha_mailhide_html($pubkey, $privkey, $email) {
     $emailparts = _recaptcha_mailhide_email_parts ($email);

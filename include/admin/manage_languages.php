@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -324,7 +324,7 @@ function phorum_write_language_file($lang, $CURRENT)
         ($CURRENT['STORE']['language_hide'] ? '' : '//') . "\$language_hide = 1;\n" .
         "\n" .
         "// Date formatting. Check the PHP-docs for the syntax of these\n" .
-        "// entries (http://www.php.net/strftime). One tip: do not use\n" .
+        "// entries (https://www.php.net/strftime). One tip: do not use\n" .
         "// %T for showing the time zone, as users can change their time zone.\n" .
         "\$PHORUM['long_date_time'] = " . urldecode($CURRENT['long_date_time']) . ";\n" .
         "\$PHORUM['short_date_time'] = " . urldecode($CURRENT['short_date_time']) . ";\n" .
@@ -332,7 +332,7 @@ function phorum_write_language_file($lang, $CURRENT)
         "\$PHORUM['short_date'] = " . urldecode($CURRENT['short_date']) . ";\n" .
         "\n" .
         "// The locale setting for enabling localized times/dates. Take a look\n" .
-        "// at http://www.w3.org/WAI/ER/IG/ert/iso639.htm for the needed string.\n" .
+        "// at https://www.w3.org/WAI/ER/IG/ert/iso639.htm for the needed string.\n" .
         "\$PHORUM['locale'] = " . urldecode($CURRENT['locale']) . ";\n" .
         "\n" .
         "// Numeric separators used to format numbers.\n" .
@@ -346,7 +346,7 @@ function phorum_write_language_file($lang, $CURRENT)
         "// not implement all available charsets, which might result in\n" .
         "// warning messages if an unsupported charset is used.\n" .
         "//\n" .
-        "// See http://www.php.net/htmlspecialchars for info on charset\n" .
+        "// See https://www.php.net/htmlspecialchars for info on charset\n" .
         "// compatibility. If the charset that you specified above is\n" .
         "// compatible with htmlspecialchars(), then you can leave this\n" .
         "// variable empty. Otherwise, specify a compatible character\n" .

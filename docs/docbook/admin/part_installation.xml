@@ -54,7 +54,7 @@
         If you downloaded the .tar.gz file or if you are using a Windows
         version that does not have built-in zipfile support, then you will
         have to download an appropriate tool for unpacking, e.g. WinZip
-        (<ulink url="http://www.winzip.com/">http://www.winzip.com/</ulink>).
+        (<ulink url="https://www.winzip.com/">https://www.winzip.com/</ulink>).
       </para>
       <para>
         <emphasis role="bold">From UNIX:</emphasis>
@@ -78,15 +78,15 @@ shell&gt; <literal>tar xvf phorum-x.y.z.tar</literal></screen>
         section</remark>
         The document root for a website is the directory in which your
         site's web pages are stored. If your website's URL is
-        <filename>http://www.example.com</filename> and you place the Phorum
+        <filename>https://www.example.com</filename> and you place the Phorum
         files in a directory called <filename>forum</filename> inside
         your document root, your Phorum installation will be available
-        at the URL <filename>http://www.example.com/forum</filename>.
+        at the URL <filename>https://www.example.com/forum</filename>.
         From now on, we will name this URL simply
         <filename>{phorum url}</filename>. So if you
         see <filename>{phorum url}/admin.php</filename>, using the example
         we actually mean
-        <filename>http://www.example.com/forum/admin.php</filename>.
+        <filename>https://www.example.com/forum/admin.php</filename>.
       </para>
       <para>
         If the webserver is running on the same system as where you have
@@ -135,7 +135,7 @@ shell&gt; <literal>tar xvf phorum-x.y.z.tar</literal></screen>
         Phorum stores all its data in a database. So if you do not already
         have a database which you will be using for Phorum, you now need to
         create one. Officially, only the
-        <ulink url="http://www.mysql.com/">MySQL</ulink>
+        <ulink url="https://www.mysql.com/">MySQL</ulink>
         database server is supported
         by Phorum, so we recommend to use MySQL whenever possible.
       </para>
@@ -598,7 +598,7 @@ failed to open stream: permission denied in ...</screen>
           <filename>{phorum dir}/include/lang/yourlanguage.php</filename>),
           please read the PHP documentation for strftime() and its
           limitations on the Windows platform at
-          <ulink url="http://www.php.net/strftime"/>
+          <ulink url="https://www.php.net/strftime"/>
         </para>
       </section>
     </section>

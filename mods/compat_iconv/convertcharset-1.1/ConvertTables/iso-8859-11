@@ -45,7 +45,7 @@
 #
 #	For any comments or problems, please use the Unicode
 #	web contact form at:
-#		http://www.unicode.org/unicode/reporting.html
+#		https://www.unicode.org/unicode/reporting.html
 #
 0x00	0x0000	#	NULL
 0x01	0x0001	#	START OF HEADING

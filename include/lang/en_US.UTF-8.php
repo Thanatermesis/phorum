@@ -9,7 +9,7 @@
     // uncomment this to hide this language from the user-select-box
     //$language_hide=1;
 
-    // check the php-docs for the syntax of these entries (http://www.php.net/manual/en/function.strftime.php)
+    // check the php-docs for the syntax of these entries (https://www.php.net/manual/en/function.strftime.php)
     // One tip, don't use T for showing the time zone as users can change their time zone.
     $PHORUM['long_date_time']="%B %d, %Y %I:%M%p";
     $PHORUM['short_date_time']="%m/%d/%Y %I:%M%p";
@@ -17,7 +17,7 @@
     $PHORUM['short_date']="%m/%d/%Y";
 
     // locale setting for localized times/dates
-    // see that page: http://www.w3.org/WAI/ER/IG/ert/iso639.htm
+    // see that page: https://www.w3.org/WAI/ER/IG/ert/iso639.htm
     // for the needed string
     $PHORUM['locale']="EN";
 
@@ -32,7 +32,7 @@
     // not implement all available charsets, which might result in
     // warning messages if an unsupported charset is used.
     //
-    // See http://www.php.net/htmlspecialchars for info on charset
+    // See https://www.php.net/htmlspecialchars for info on charset
     // compatibility. If the charset that you specified above is
     // compatible with htmlspecialchars(), then you can leave this
     // variable empty. Otherwise, specify a compatible character

@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -32,7 +32,7 @@ function phorum_check_php_safety()
          to \"On\". It is generally recommended to disable this
          setting, because it can introduce security problems for
          scripts that are not carefully written. See also
-         http://www.php.net/register_globals for more info on this
+         https://www.php.net/register_globals for more info on this
          subject.<br/><br/>
          Although the Phorum development team always tries to write code
          which cannot be affected by this setting in any way, we can never

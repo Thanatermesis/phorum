@@ -12,7 +12,7 @@
       For much of this document, we will be talking about an example module
       "foo". Of course you will not name your module "foo", but something much
       more appropriate. If you're not familiar with the terms "foo" and "bar",
-      you can visit <ulink url="http://en.wikipedia.org/wiki/Metasyntactic_variable">Wikipedia</ulink> to see why we chose them.
+      you can visit <ulink url="https://en.wikipedia.org/wiki/Metasyntactic_variable">Wikipedia</ulink> to see why we chose them.
     </para>
     <para>
       <remark>TODO: Link to section once it's ready</remark>
@@ -369,7 +369,7 @@ function phorum_mod_foo_some_hook ($data) {
                   Example:<sbr/>
                   <literal>
                     author: John Doe, Phorum hacker<sbr/>
-                    url: http://example.com/phorum/mod_foo/<sbr/>
+                    url: https://example.com/phorum/mod_foo/<sbr/>
                     version: 0.9.1-alpha<sbr/>
                     release_date: May 17th, 2007
                   </literal>
@@ -504,7 +504,7 @@ title: Foo
 desc: This is the Foo module for Phorum. Nothing exciting...
 version: 1.0.2
 release_date: Jan 1st, 2008
-url: http://www.phorum.org
+url: https://www.phorum.org
 author: John Doe <johndoe@example.com>
 require_version: 5.2.2
 category: user_features
@@ -595,7 +595,7 @@ title: Foo
 desc: This is the Foo module for Phorum. Nothing exciting...
 version: 1.0.2
 release_date: Jan 1st, 2008
-url: http://www.phorum.org
+url: https://www.phorum.org
 author: John Doe <johndoe@example.com>
 require_version: 5.2.2
 category: user_features
@@ -674,7 +674,7 @@ title: Foo
 desc: This is the Foo module for Phorum. Nothing exciting...
 version: 1.0.2
 release_date: Jan 1st, 2008
-url: http://www.phorum.org
+url: https://www.phorum.org
 author: John Doe <johndoe@example.com>
 require_version: 5.2.2
 category: user_features
@@ -864,7 +864,7 @@ $PHORUM["DATA"]["LANG"]["mod_foo"]["Hello"]</programlisting>
           is attached to each message array
           (<literal>$message["meta"]</literal>).
           This array is a regular PHP array, which is stored in the
-          database as serialized data (see <ulink url="http://www.php.net/serialize">PHP's serialize manual</ulink>).
+          database as serialized data (see <ulink url="https://www.php.net/serialize">PHP's serialize manual</ulink>).
           Because Phorum and other modules make use of this meta data as
           well, you should never squash it, neither access the meta data
           in the database directly. Instead use the methods described in
@@ -1201,8 +1201,8 @@ function phorum_mod_foo_user_save ($user)
               is always opening pages within the same domain. With relative
               URLs, the user might end up at a different domain because of
               some webserver redirect (e.g. from
-              <literal>http://example.com</literal> to
-              <literal>http://www.example.com</literal>), causing possible
+              <literal>https://example.com</literal> to
+              <literal>https://www.example.com</literal>), causing possible
               loss of cookies as a result (since cookies bind to domains).
               Loss of cookies result in the user being logged out.
             </listitem>

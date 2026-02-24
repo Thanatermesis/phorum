@@ -148,7 +148,7 @@ Table of contents:
     according to the PHP developers.  It is only used in common.php to create
     the global existence of the $PHORUM variable.
 
-    See: <http://marc.theaimsgroup.com/?l=php-dev&m=100955714924477&w=2>
+    See: <https://marc.theaimsgroup.com/?l=php-dev&m=100955714924477&w=2>
 
     This applys to PHP4 only.  We may reconsider once PHP5 is widespread.
 

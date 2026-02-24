@@ -27,9 +27,9 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     # Dialogs and errors.
     'enter url'     => 'Prosím, vložte adresu odkazu.',
     'enter url description' => 'Prosím vložte popis odkazu.',
-    'invalid url'   => 'Odkaz je chybný. Měl by začínat s http://, https://, ftp:// nebo mailto:',
+    'invalid url'   => 'Odkaz je chybný. Měl by začínat s https://, https://, ftp:// nebo mailto:',
     'enter image url' => 'Prosím vložte odkaz na obrázek, který chcete přidat.',
-    'invalid image url' => 'Chybný odkaz obrázku. Měl by začínat s http://, https:// or ftp://',
+    'invalid image url' => 'Chybný odkaz obrázku. Měl by začínat s https://, https:// or ftp://',
     'enter who you quote' => 'Prosím, vložte jméno osoby, která má být v uvozovkách. Můžete také nechat prázdné.',
 
     # For the size picker.

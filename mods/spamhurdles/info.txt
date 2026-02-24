@@ -2,7 +2,7 @@ title: Spam Hurdles
 desc: This module sets up some hurdles for forum spammers. It implements both interactive (CAPTCHA) and non-interactive anti-spam methods to keep away spam bots. On the settings page, you can control exactly what hurdles to enable.
 version: 2.0.2
 author: Phorum Dev Team
-url: http://www.phorum.org/
+url: https://www.phorum.org/
 
 hook: lang|
 hook: css_register|phorum_mod_spamhurdles_css_register

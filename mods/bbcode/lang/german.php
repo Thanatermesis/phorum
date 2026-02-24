@@ -28,9 +28,9 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     'enter url'     => 'Bitte geben Sie die Adresse ein, zu der Sie einen Link erstellen wollen.',
     'enter email'   => 'Bitte geben Sie die E-Mail Adresse ein, zu der Sie einen Link erstellen wollen.',
     'enter url description' => 'Bitte geben Sie eine Beschreibung fuer den Link an.',
-    'invalid url'   => 'Diese Adresse ist ungueltig. Es sollte mit http://, https://, ftp:// oder mailto: beginnen.',
+    'invalid url'   => 'Diese Adresse ist ungueltig. Es sollte mit https://, https://, ftp:// oder mailto: beginnen.',
     'enter image url' => 'Bitte geben Sie die Adresse fuer das einzufuegende Bild an.',
-    'invalid image url' => 'Diese Adresse fuer das Bild ist ungueltig. Sie sollte mit http://, https:// oder ftp:// beginnen.',
+    'invalid image url' => 'Diese Adresse fuer das Bild ist ungueltig. Sie sollte mit https://, https:// oder ftp:// beginnen.',
     'enter who you quote' => 'Bitte geben Sie den Namen der Person ein, welche Sie zitieren. Sie koennen dies auch leer lassen.',
 
     # For the size picker.

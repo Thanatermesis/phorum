@@ -2,7 +2,7 @@
 {! is used in the document and what character set to use. Leave this }
 {! untouched, unless you know what you are doing. The default doctype }
 {! is targeted at "Standards Mode" in XHTML 1.0 Transitional. For more }
-{! info on this subject, see http://hsivonen.iki.fi/doctype/ }
+{! info on this subject, see https://hsivonen.iki.fi/doctype/ }
 <?php
 {! Adds X-Frame-Options to HTTP header, so that page can only be shown in an iframe of the same site. }
 header('X-Frame-Options: SAMEORIGIN');
@@ -13,10 +13,10 @@ if ($PHORUM['DATA']['CHARSET']) {
     echo '<?xml version="1.0" ?>';
 }
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <!-- START TEMPLATE header.tpl -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{LOCALE}" lang="{LOCALE}">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="{LOCALE}" lang="{LOCALE}">
 
 <head>
 
@@ -88,8 +88,8 @@ if ($PHORUM['DATA']['CHARSET']) {
 
 <!--
 Some Icons courtesy of:
-  FAMFAMFAM - http://www.famfamfam.com/lab/icons/silk/
-  Tango Project - http://tango-project.org/
+  FAMFAMFAM - https://www.famfamfam.com/lab/icons/silk/
+  Tango Project - https://tango-project.org/
 -->
 </head>
 
@@ -202,7 +202,7 @@ Some Icons courtesy of:
         <div class="description">{LANG->Postedby} {IF TOPIC->URL->PROFILE}<a href="{TOPIC->URL->PROFILE}">{/IF}{TOPIC->author}{IF TOPIC->URL->PROFILE}</a>{/IF}&nbsp;</div>
       {ELSEIF NAME}
         {! This is a forum page other than a read page or a folder page }
-        <h1 class="heading">{NAME}</h1>{! replace with path see http://www.phorum.org/cgi-bin/trac.cgi/ticket/213 }
+        <h1 class="heading">{NAME}</h1>{! replace with path see https://www.phorum.org/cgi-bin/trac.cgi/ticket/213 }
         {IF HTML_DESCRIPTION}
           <div class="description">{HTML_DESCRIPTION}&nbsp;</div>
         {/IF}

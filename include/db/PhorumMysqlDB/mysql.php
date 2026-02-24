@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -269,7 +269,7 @@ class PhorumMysqlDB_mysql extends PhorumDB
                         // Duplicate entry for key.
                         case 1062:
                         // For MySQL server versions 5.1.15 up to 5.1.20. See
-                        // bug #28842 (http://bugs.mysql.com/bug.php?id=28842)
+                        // bug #28842 (https://bugs.mysql.com/bug.php?id=28842)
                         case 1582:
                           if ($flags & DB_DUPKEYOK) $ignore_error = TRUE;
                           break;

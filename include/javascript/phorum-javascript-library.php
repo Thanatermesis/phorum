@@ -7,7 +7,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -1669,7 +1669,7 @@ In template:
      *   <b>Example code</b>
      * </p>
      * <p><pre><code>
-&lt;a href="http://example.com/index.php?10,markread,0"
+&lt;a href="https://example.com/index.php?10,markread,0"
    onclick="return Phorum.UI.NewFlags.markRead('forums', 10)"&gt;
     Mark forum read
 &lt;/a&gt;
@@ -1812,7 +1812,7 @@ For example:
 
 For example:
 
-&lt;a href="http://example.com/read.php?10,5,84#msg-84"
+&lt;a href="https://example.com/read.php?10,5,84#msg-84"
    class="new-flag[css,10,5] new-flag"&gt;Phorum rocks!&lt;/a&gt;
      *     </code></pre>
      *   </li>

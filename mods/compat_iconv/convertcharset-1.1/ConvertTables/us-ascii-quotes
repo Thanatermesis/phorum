@@ -5,7 +5,7 @@
 #	Table version:    1.0
 #	Table format:     Format A
 #	Date:             2003 April 8
-#	Authors:          Markus Kuhn <http://www.cl.cam.ac.uk/~mgk25/>
+#	Authors:          Markus Kuhn <https://www.cl.cam.ac.uk/~mgk25/>
 #
 #	General notes:
 #
@@ -55,11 +55,11 @@
 #	References:
 #
 #	  - Markus Kuhn: ASCII and Unicode quotation marks.
-#	    http://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html
+#	    https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html
 #
 #	  - Jukka Korpela: Character histories: notes on some Ascii
 #	    code positions.
-#	    http://www.cs.tut.fi/~jkorpela/latin1/ascii-hist.html
+#	    https://www.cs.tut.fi/~jkorpela/latin1/ascii-hist.html
 #
 #	Format:  Three tab-separated columns
 #		 Column #1 is the ANSI X3.4 code (in hex as 0xXX)

@@ -27,9 +27,9 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     # Dialogs and errors.
     'enter url'     => 'Pros�m, vlo�te adresu odkazu.',
     'enter url description' => 'Pros�m vlo�te popis odkazu.',
-    'invalid url'   => 'Odkaz je chybn�. M�l by za��nat s http://, https://, ftp:// nebo mailto:',
+    'invalid url'   => 'Odkaz je chybn�. M�l by za��nat s https://, https://, ftp:// nebo mailto:',
     'enter image url' => 'Pros�m vlo�te odkaz na obr�zek, kter� chcete p�idat.',
-    'invalid image url' => 'Chybn� odkaz obr�zku. M�l by za��nat s http://, https:// or ftp://',
+    'invalid image url' => 'Chybn� odkaz obr�zku. M�l by za��nat s https://, https:// or ftp://',
     'enter who you quote' => 'Pros�m, vlo�te jm�no osoby, kter� m� b�t v uvozovk�ch. M��ete tak� nechat pr�zdn�.',
 
     # For the size picker.

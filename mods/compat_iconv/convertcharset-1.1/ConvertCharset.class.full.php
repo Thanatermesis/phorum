@@ -3,8 +3,8 @@
  * @author Mikolaj Jedrzejak <mikolajj@op.pl>
  * @copyright Copyright Mikolaj Jedrzejak (c) 2003-2007
  * @version 1.1 2007-10-30
- * @link http://www.unicode.org Unicode Homepage
- * @link http://mikolajj.republika.pl Class Homepage
+ * @link https://www.unicode.org Unicode Homepage
+ * @link https://mikolajj.republika.pl Class Homepage
  *
  **/
 $PATH_TO_CLASS = dirname(ereg_replace("\\\\","/",__FILE__)) . "/" . "ConvertTables" . "/";
@@ -147,7 +147,7 @@ define ("DEBUG_MODE", 1);
  * @version 1.1 2007-10-30 23:11
  * @access public
  *
- * @link http://www.unicode.org Unicode Homepage
+ * @link https://www.unicode.org Unicode Homepage
  **/
 class ConvertCharset {
 	var $RecognizedEncoding; 	// (boolean) This value keeps information if string contains multibyte chars.
@@ -348,7 +348,7 @@ class ConvertCharset {
 	 * next line, and so on...
 	 * </code>
 	 *
-	 * You can get full tables with encodings from http://www.unicode.org
+	 * You can get full tables with encodings from https://www.unicode.org
 	 *
 	 * @param string $FromCharset Name of first encoding and first encoding filename (thay have to be the same)
 	 * @param string $ToCharset Name of second encoding and second encoding filename (thay have to be the same). Optional for building a joined table.

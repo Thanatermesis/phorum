@@ -3,7 +3,7 @@ desc: This module implements an event logging system, which can be used for logg
 require_version: 5.3.0
 version: 1.1.4
 author: Phorum Dev Team
-url: http://www.phorum.org/
+url: https://www.phorum.org/
 
 hook: common_pre|phorum_mod_event_logging_common_pre
 hook: common|phorum_mod_event_logging_common

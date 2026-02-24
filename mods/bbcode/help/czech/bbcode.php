@@ -91,15 +91,15 @@
     Tytro znaèky jsou pro odkazy na zdroje z internetu.
     Zde jsou nìjaké pøíklady:<br/><br/>
     <tt>
-    [img]http://www.somesite.com/cool/thumbsup.gif[/img]<br/>
-    [url]http://www.phorum.org[/url]<br/>
-    [url=http://www.phorum.org]Navtivte Phorum.org![/url]<br/>
+    [img]https://www.somesite.com/cool/thumbsup.gif[/img]<br/>
+    [url]https://www.phorum.org[/url]<br/>
+    [url=https://www.phorum.org]Navtivte Phorum.org![/url]<br/>
     [email]someuser@somesite.com[/email]
     </tt></br></br>
     Pøíklady se zobrazí takto:<br/><br/>
     <img src="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/bbcode/help/thumbsup.gif" border="0"/><br/>
-    [<a href="http://www.phorum.org">www.phorum.org</a>]<br/>
-    <a rel="nofollow" href="http://www.phorum.org">Navtivte Phorum.org!</a><br/>
+    [<a href="https://www.phorum.org">www.phorum.org</a>]<br/>
+    <a rel="nofollow" href="https://www.phorum.org">Navtivte Phorum.org!</a><br/>
     <a href="mailto:someuser@somesite.com">someuser@somesite.com</a>
 
     <h3>Formátovaný kód, písmo se stejnou rozteèí: [code]...[/code]</h3>

@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -44,14 +44,14 @@ if (!defined('PHORUM')) return;
  *       this sounds terribly confusing, here are some examples for the
  *       distinct cases:
  *
- *       [url]http://some.url[tag]nested data[/tag][/url]
+ *       [url]https://some.url[tag]nested data[/tag][/url]
  *       For this case, the parser would turn [tag]nested data[/tag] into
  *       <some>html tag</some>. Then, the parser would see:
- *       [url]http://some.url<some>html tag</some>[/url]
+ *       [url]https://some.url<some>html tag</some>[/url]
  *       When using this content for <a href="...">, this would introduce
  *       HTML code inside the href, possibly opening options for XSS.
  *
- *       [url=http://some.url][tag]nested data[/tag][/url]
+ *       [url=https://some.url][tag]nested data[/tag][/url]
  *       This case is okay. The content here is put between <a href> and </a>
  *       in the rendered output. This case should still be valid after
  *       implementing the new parsing rule.
@@ -89,7 +89,7 @@ define('BBCODE_INFO_DEFAULTSTATE', 3);
  * The values are the default values to use for the arguments.
  * If a tag is implemented that allows for assigning a value to the
  * tag name, then this tag name needs to be added to the argument array.
- * For example the [url] tag, which can look like [url=http://www.example.com]
+ * For example the [url] tag, which can look like [url=https://www.example.com]
  * needs the argument array ('url' => '') to allow for the URL assignment.
  */
 define('BBCODE_INFO_ARGS', 4);
@@ -1198,7 +1198,7 @@ function bbcode_img_handler($content, $args)
         $args['img'] = $content;
     }
     if (!preg_match('!^\w+://!', $args['img'])) {
-        $args['img'] = 'http://'.$args['img'];
+        $args['img'] = 'https://'.$args['img'];
     }
 
     $append = '';
@@ -1252,7 +1252,7 @@ function bbcode_url_handler($content, $args)
         $strip_url = TRUE;
     }
     if (!preg_match('!^\w+://!', $args['url'])) {
-        $args['url'] = 'http://'.$args['url'];
+        $args['url'] = 'https://'.$args['url'];
     }
     if ($strip_url && !$show_full_urls) {
         $parts = @parse_url($args['url']);

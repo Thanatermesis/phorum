@@ -98,15 +98,15 @@
     Dit zijn allemaal tags voor het linken van bronnen op het
     internet. Here zijn een paar voorbeelden:<br/><br/>
     <tt>
-    [img]http://www.ergens.com/cool/thumbsup.gif[/img]<br/>
-    [url]http://www.phorum.org[/url]<br/>
-    [url=http://www.phorum.org]Visit Phorum.org![/url]<br/>
+    [img]https://www.ergens.com/cool/thumbsup.gif[/img]<br/>
+    [url]https://www.phorum.org[/url]<br/>
+    [url=https://www.phorum.org]Visit Phorum.org![/url]<br/>
     [email]iemand@ergens.com[/email]
     </tt></br></br>
     Dit zal worden getoond als:</br></br>
     <img src="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/bbcode/help/thumbsup.gif" border="0"/><br/>
-    [<a href="http://www.phorum.org">www.phorum.org</a>]<br/>
-    <a rel="nofollow" href="http://www.phorum.org">Visit Phorum.org!</a><br/>
+    [<a href="https://www.phorum.org">www.phorum.org</a>]<br/>
+    <a rel="nofollow" href="https://www.phorum.org">Visit Phorum.org!</a><br/>
     <a href="mailto:iemand@ergens.com">iemand@ergens.com</a>
 
     <h3>Monospace, opgemaakte code: [code]...[/code]</h3>

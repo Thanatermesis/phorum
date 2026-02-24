@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -23,7 +23,7 @@
  * @package    PhorumAPI
  * @subpackage Formatting
  * @copyright  2016, Phorum Development Team
- * @license    Phorum License, http://www.phorum.org/license.txt
+ * @license    Phorum License, https://www.phorum.org/license.txt
  */
 
 
@@ -45,7 +45,7 @@
  * The related variable from the language file is:
  * - $PHORUM['DATA']['HCHARSET']: the charset to use
  *
- * @link http://cakephp.org CakePHP(tm) Project
+ * @link https://cakephp.org CakePHP(tm) Project
  * @see Cake\Utility\Text::wordWrap
  */
 function phorum_api_format_wordwrap( $text, $width = 72, $break = "\n", $cut = false )
@@ -90,7 +90,7 @@ function phorum_api_format_wordwrap( $text, $width = 72, $break = "\n", $cut = f
  * The related variable from the language file is:
  * - $PHORUM['DATA']['HCHARSET']: the charset to use
  *
- * @link http://cakephp.org CakePHP(tm) Project
+ * @link https://cakephp.org CakePHP(tm) Project
  * @see Cake\Utility\Text::_wordWrap
  */
 function _phorum_api_format_wordwrap( $text, $width = 72, $break = "\n", $cut = false )

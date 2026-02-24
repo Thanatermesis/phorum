@@ -2,7 +2,7 @@ These files are part of the phpseclib distribution.
 This is a PHP AES implementation. It also works if the PHP
 mcrypt extension is not enabled on the server.
 
-See: http://phpseclib.sourceforge.net/
+See: https://phpseclib.sourceforge.net/
 
 We modified the files a little bit, to be able to distribute the code
 with our Spam Hurdles module, without having to install the code globally

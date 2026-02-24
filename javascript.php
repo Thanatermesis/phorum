@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -34,12 +34,12 @@ $only_core = !empty($PHORUM['args']['admin']);
 // ----------------------------------------------------------------------
 
 // "core" can be added to the URL, to flag that only the core scripts
-// need to be included, e.g. http://example.com/phorum/javascript?core
+// need to be included, e.g. https://example.com/phorum/javascript?core
 $only_core = in_array('core', $PHORUM['args']);
 
 // "nojquery" can be added to the URL, to flag that the jquery library
 // needs to be omitted. This can be useful if the site loads a jquery
-// library already. E.g. http://example.com/phorum/javascript?core,nojquery
+// library already. E.g. https://example.com/phorum/javascript?core,nojquery
 $no_jquery = in_array('nojquery', $PHORUM['args']);
 
 // ----------------------------------------------------------------------

@@ -8,7 +8,7 @@ hook:  user_session_destroy|test_user_session_destroy
 title: User API hook demo
 desc:  This module is a demo for demonstrating the user API hooks, which can be used for implementing external user authentication and session.
 author: Phorum Dev Team
-url: http://www.phorum.org/
+url: https://www.phorum.org/
 */
 
 // Let's presume that this is an external session.

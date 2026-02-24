@@ -9,7 +9,7 @@ if ($PHORUM['DATA']['CHARSET']) {
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{LOCALE}" lang="{LOCALE}">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="{LOCALE}" lang="{LOCALE}">
 <head>
 
 <title>{HTML_TITLE}</title>
@@ -117,7 +117,7 @@ if ($PHORUM['DATA']['CHARSET']) {
     <div id="description">{LANG->Postedby} {IF TOPIC->URL->PROFILE}<a href="{TOPIC->URL->PROFILE}">{/IF}{TOPIC->author}{IF TOPIC->URL->PROFILE}</a>{/IF}&nbsp;</div>
 {ELSEIF NAME}
     {! This is a forum page other than a read page or a folder page }
-    <h1>{NAME}</h1>{! replace with path see http://www.phorum.org/cgi-bin/trac.cgi/ticket/213 }
+    <h1>{NAME}</h1>{! replace with path see https://www.phorum.org/cgi-bin/trac.cgi/ticket/213 }
     {IF HTML_DESCRIPTION}
       <div id="description">{HTML_DESCRIPTION}&nbsp;</div>
     {/IF}

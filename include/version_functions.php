@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -166,7 +166,7 @@ function phorum_compare_version($version1, $version2)
 function phorum_available_releases()
 {
     $releases = array();
-    $fp = @fopen("http://phorum.org/version.php", "r");
+    $fp = @fopen("https://phorum.org/version.php", "r");
     if ($fp) {
         foreach (array("stable", "development") as $release) {
             $line = fgets($fp, 1024);

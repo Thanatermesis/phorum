@@ -43,7 +43,7 @@ to a new language, you'll have to copy lang/english.php to lang/yourlang.php
 you use). After this, translate the strings in lang/yourlang.php.
 
 If you have created a translation for this module, please post a copy of
-lang/yourlang.php in the module forum at http://www.phorum.org/phorum5, so
+lang/yourlang.php in the module forum at https://www.phorum.org/phorum5, so
 we can add the translation to the package.
 
 
@@ -131,7 +131,7 @@ examples on how to do this.
 
       editor_tools_register_help(
           'The name of the help link',
-          'http://www.yourhelp.com/page.html'
+          'https://www.yourhelp.com/page.html'
       );
 
 

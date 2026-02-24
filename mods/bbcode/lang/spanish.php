@@ -27,9 +27,9 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     # Dialogs and errors.
     'enter url'     => 'Introduce la direcci�n URL a la que quieres crear un enlace.',
     'enter url description' => 'Introduce descripci�n del enlace.',
-    'invalid url'   => 'La URL es incorrecta. Deber�a comenzar con  with http://, https://, ftp:// o mailto:',
+    'invalid url'   => 'La URL es incorrecta. Deber�a comenzar con  with https://, https://, ftp:// o mailto:',
     'enter image url' => 'Introduce la direcci�n URL de la imagen que deseas a�adir.',
-    'invalid image url' => 'La URL de la imagen es incorrecta. Deber�a comenzar con http://, https:// o ftp://',
+    'invalid image url' => 'La URL de la imagen es incorrecta. Deber�a comenzar con https://, https:// o ftp://',
     'enter who you quote' => 'Introduce el nombre de la persona que est�s citando. Puedes omitirlo si lo prefieres.',
 
     # For the size picker.

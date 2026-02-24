@@ -29,9 +29,9 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     'enter email'   => 'Please, enter the email address for which you want to create a link.',
     'enter subject' => 'Please, enter the subject that you want to use for the mail message.',
     'enter url description' => 'Please, enter a description for the URL.',
-    'invalid url'   => 'The URL is invalid. It should start with http://, https://, ftp:// or mailto:',
+    'invalid url'   => 'The URL is invalid. It should start with https://, https://, ftp:// or mailto:',
     'enter image url' => 'Please, enter the URL for the image that you want to add.',
-    'invalid image url' => 'The URL for the image is invalid. It should start with http://, https:// or ftp://',
+    'invalid image url' => 'The URL for the image is invalid. It should start with https://, https:// or ftp://',
     'enter who you quote' => 'Please, enter the name of the person that you are quoting. You can leave this empty if you like.',
     'enter new list item' => 'Please, enter the text for an item or leave empty if you are done with adding items.',
 

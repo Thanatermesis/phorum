@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -106,8 +106,8 @@ $GLOBALS['PHORUM']['MOD_BBCODE']['BUILTIN'] = array
 
     'url' => array(
         BBCODE_INFO_DESCRIPTION   =>
-            '[url=http://example.com]cool site![/url]<br/>' .
-            '[url]http://example.com[/url]<br/>' .
+            '[url=https://example.com]cool site![/url]<br/>' .
+            '[url]https://example.com[/url]<br/>' .
             'For adding website links.',
         BBCODE_INFO_HASEDITORTOOL => TRUE,
         BBCODE_INFO_DEFAULTSTATE  => 2,
@@ -116,7 +116,7 @@ $GLOBALS['PHORUM']['MOD_BBCODE']['BUILTIN'] = array
     ),
 
     'img' => array(
-        BBCODE_INFO_DESCRIPTION   =>'[img]http://example.com/image.jpg[/img]',
+        BBCODE_INFO_DESCRIPTION   =>'[img]https://example.com/image.jpg[/img]',
         BBCODE_INFO_HASEDITORTOOL => TRUE,
         BBCODE_INFO_DEFAULTSTATE  => 2,
         BBCODE_INFO_ARGS          => array('img' => '', 'size' => ''),

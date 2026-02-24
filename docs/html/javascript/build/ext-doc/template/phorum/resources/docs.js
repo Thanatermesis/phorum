@@ -108,7 +108,7 @@ MainPanel = function(){
 
     this.searchStore = new Ext.data.Store({
         proxy: new Ext.data.ScriptTagProxy({
-            url: 'http://extjs.com/playpen/api.php'
+            url: 'https://extjs.com/playpen/api.php'
         }),
         reader: new Ext.data.JsonReader({
                 root: 'data'
@@ -440,7 +440,7 @@ Ext.app.SearchField = Ext.extend(Ext.form.TwinTriggerField, {
  * on inner elements.  Re-enabling editable after calling this will NOT work.
  *
  * @author Corey Gilmore
- * http://extjs.com/forum/showthread.php?t=6392
+ * https://extjs.com/forum/showthread.php?t=6392
  *
  * @history 2007-07-08 jvs
  * Slight mods for Ext 2.0

@@ -30,9 +30,9 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     'enter subject' => 'Voer het onderwerp in dat u wilt gebruiken voor de email.',
     'enter url'     => 'Voer de URL in om naartoe te linken.',
     'enter url description' => 'Geef een omschrijving voor de link.',
-    'invalid url'   => 'De URL is ongeldig. Deze moet starten met http://, https://, ftp:// of mailto:',
+    'invalid url'   => 'De URL is ongeldig. Deze moet starten met https://, https://, ftp:// of mailto:',
     'enter image url' => 'Voer de URL in voor de afbeelding die moet worden ingevoegd.',
-    'invalid image url' => 'De URL voor de afbeelding is ongeldig. Deze moet starten met http://, https:// of ftp://',
+    'invalid image url' => 'De URL voor de afbeelding is ongeldig. Deze moet starten met https://, https:// of ftp://',
     'enter who you quote' => 'Geef de naam op van de te quoten persoon. Indien gewenst, mag dit ook leeg blijven.',
     'enter new list item' => 'Voer de tekst voor een item in of laat het veld leeg als u klaar bent met invoeren',
 

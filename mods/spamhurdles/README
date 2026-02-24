@@ -41,7 +41,7 @@ instructions and finally copied the program "flite" over to /usr/local/bin
 (the other parts of the package are not needed, only the flite binary).
 
 For information on Flite, see:
-http://www.speech.cs.cmu.edu/flite/
+https://www.speech.cs.cmu.edu/flite/
 
 If people are using other speech synthesizers and want to have support
 added to the Spam Hurdles for those, please contact me.
@@ -104,7 +104,7 @@ weak points.
   the module's directory mods/spamhurdles/captcha/fonts/
   There are several resources on the net which provide free ttf fonts
   that you can use for this CAPTCHA. See for example the site
-  http://www.webpagepublicity.com/free-fonts.html
+  https://www.webpagepublicity.com/free-fonts.html
 
   Pro:
   - By using different fonts, colors, rotations and backgrounds, it's
@@ -197,7 +197,7 @@ weak points.
 * Code, using the reCAPTCHA service *
 *************************************
 
-  This CAPTCHA uses the service from http://recaptcha.net/ to display and
+  This CAPTCHA uses the service from https://recaptcha.net/ to display and
   check a CAPTCHA. The service uses digitally scanned books as the source
   for the CAPTCHA images. By solving CAPTCHAs, your users will participate
   in converting these books into real text. For information on how this

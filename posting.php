@@ -2,7 +2,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
 //   Copyright (C) 2016  Phorum Development Team                              //
-//   http://www.phorum.org                                                    //
+//   https://www.phorum.org                                                    //
 //                                                                            //
 //   This program is free software. You can redistribute it and/or modify     //
 //   it under the terms of either the current Phorum License (viewable at     //
@@ -36,9 +36,9 @@
 // 3) If edit, moderation or reply is used: the message id.
 //
 // Examples:
-// http://yoursite/phorum/posting.php?10,quote,15
-// http://yoursite/phorum/posting.php?10,edit,20
-// http://yoursite/phorum/posting.php?10,post
+// https://yoursite/phorum/posting.php?10,quote,15
+// https://yoursite/phorum/posting.php?10,edit,20
+// https://yoursite/phorum/posting.php?10,post
 //
 // This script can also be included in another page (for putting the editor
 // screen inline in a page), by setting up the $PHORUM["postingargs"] before

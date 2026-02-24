@@ -27,9 +27,9 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     # Dialogs and errors.
     'enter url'     => 'Var vänlig ange sökvägen, URLen, dit du vill skapa en länk.',
     'enter url description' => 'Var vänlig ange en beskrivning för länken.',
-    'invalid url'   => 'Sökvägen är inte rätt skriven. Den ska ska börja med http://, https://, ftp:// eller mailto:',
+    'invalid url'   => 'Sökvägen är inte rätt skriven. Den ska ska börja med https://, https://, ftp:// eller mailto:',
     'enter image url' => 'Var vänlig ange sökvägen, URLen, till den bild du vill lägga till.',
-    'invalid image url' => 'Sökvägen till bilden är inte rätt skriven. Den ska ska börja med http://, https:// eller ftp://',
+    'invalid image url' => 'Sökvägen till bilden är inte rätt skriven. Den ska ska börja med https://, https:// eller ftp://',
     'enter who you quote' => 'Var vänlig ange namnet pÂ den person du citerar. Du kan lämna det här tomt om du vill.',
 
     # For the size picker.

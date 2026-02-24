@@ -16,14 +16,14 @@
  *
  * Not all Rijndael implementations may support 160-bits or 224-bits as the block length / key length.  mcrypt, for example,
  * does not.  AES, itself, only supports block lengths of 128 and key lengths of 128, 192, and 256.
- * {@link http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=10 Rijndael-ammended.pdf#page=10} defines the
+ * {@link https://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=10 Rijndael-ammended.pdf#page=10} defines the
  * algorithm for block lengths of 192 and 256 but not for block lengths / key lengths of 160 and 224.  Indeed, 160 and 224
  * are first defined as valid key / block lengths in
- * {@link http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=44 Rijndael-ammended.pdf#page=44}:
+ * {@link https://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=44 Rijndael-ammended.pdf#page=44}:
  * Extensions: Other block and Cipher Key lengths.
  *
  * {@internal The variable names are the same as those in
- * {@link http://www.csrc.nist.gov/publications/fips/fips197/fips-197.pdf#page=10 fips-197.pdf#page=10}.}}
+ * {@link https://www.csrc.nist.gov/publications/fips/fips197/fips-197.pdf#page=10 fips-197.pdf#page=10}.}}
  *
  * Here's a short example of how to use this library:
  * <code>
@@ -63,9 +63,9 @@
  * @package    Crypt_Rijndael
  * @author     Jim Wigginton <terrafrost@php.net>
  * @copyright  MMVIII Jim Wigginton
- * @license    http://www.gnu.org/licenses/lgpl.txt
+ * @license    https://www.gnu.org/licenses/lgpl.txt
  * @version    $Id: Rijndael.php,v 1.4 2009/05/27 16:25:35 terrafrost Exp $
- * @link       http://phpseclib.sourceforge.net
+ * @link       https://phpseclib.sourceforge.net
  */
 
 /**#@+
@@ -76,13 +76,13 @@
 /**
  * Encrypt / decrypt using the Electronic Code Book mode.
  *
- * @link http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Electronic_codebook_.28ECB.29
+ * @link https://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Electronic_codebook_.28ECB.29
  */
 define('CRYPT_RIJNDAEL_MODE_ECB', 1);
 /**
  * Encrypt / decrypt using the Code Book Chaining mode.
  *
- * @link http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Cipher-block_chaining_.28CBC.29
+ * @link https://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Cipher-block_chaining_.28CBC.29
  */
 define('CRYPT_RIJNDAEL_MODE_CBC', 2);
 /**#@-*/
@@ -369,7 +369,7 @@ class Crypt_Rijndael {
                 $this->mode = CRYPT_RIJNDAEL_MODE_CBC;
         }
 
-        // according to <http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=19> (section 5.2.1),
+        // according to <https://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=19> (section 5.2.1),
         // precomputed tables can be used in the mixColumns phase.  in that example, they're assigned t0...t3, so
         // those are the names we'll use.
         $this->t3 = array(
@@ -540,7 +540,7 @@ class Crypt_Rijndael {
      * necessary are discussed in the following
      * URL:
      *
-     * {@link http://www.di-mgt.com.au/cryptopad.html http://www.di-mgt.com.au/cryptopad.html}
+     * {@link https://www.di-mgt.com.au/cryptopad.html https://www.di-mgt.com.au/cryptopad.html}
      *
      * An alternative to padding is to, separately, send the length of the file.  This is what SSH, in fact, does.
      * strlen($plaintext) will still need to be a multiple of 8, however, arbitrary values can be added to make it that
@@ -591,7 +591,7 @@ class Crypt_Rijndael {
     function decrypt($ciphertext)
     {
         $this->_setup();
-        // we pad with chr(0) since that's what mcrypt_generic does.  to quote from http://php.net/function.mcrypt-generic :
+        // we pad with chr(0) since that's what mcrypt_generic does.  to quote from https://php.net/function.mcrypt-generic :
         // "The data is padded with "\0" to make sure the length of the data is n * blocksize."
         $ciphertext = str_pad($ciphertext, (strlen($ciphertext) + $this->block_size - 1) % $this->block_size, chr(0));
 
@@ -642,7 +642,7 @@ class Crypt_Rijndael {
         // Unfortunately, the description given there is not quite correct.  Per aes.spec.v316.pdf#page=19 [1],
         // equation (7.4.7) is supposed to use addition instead of subtraction, so we'll do that here, as well.
 
-        // [1] http://fp.gladman.plus.com/cryptography_technology/rijndael/aes.spec.v316.pdf
+        // [1] https://fp.gladman.plus.com/cryptography_technology/rijndael/aes.spec.v316.pdf
         $temp = array();
         for ($round = 1; $round < $this->Nr; $round++) {
             $i = 0; // $this->c[0] == 0
@@ -773,7 +773,7 @@ class Crypt_Rijndael {
     function _setup()
     {
         // Each number in $rcon is equal to the previous number multiplied by two in Rijndael's finite field.
-        // See http://en.wikipedia.org/wiki/Finite_field_arithmetic#Multiplicative_inverse
+        // See https://en.wikipedia.org/wiki/Finite_field_arithmetic#Multiplicative_inverse
         static $rcon = array(0,
             0x01000000, 0x02000000, 0x04000000, 0x08000000, 0x10000000,
             0x20000000, 0x40000000, 0x80000000, 0x1B000000, 0x36000000,
@@ -833,7 +833,7 @@ class Crypt_Rijndael {
         for (; $i < $length; $i++) {
             $temp = $w[$i - 1];
             if ($i % $this->Nk == 0) {
-                // according to <http://php.net/language.types.integer>, "the size of an integer is platform-dependent".
+                // according to <https://php.net/language.types.integer>, "the size of an integer is platform-dependent".
                 // on a 32-bit machine, it's 32-bits, and on a 64-bit machine, it's 64-bits. on a 32-bit machine,
                 // 0xFFFFFFFF << 8 == 0xFFFFFF00, but on a 64-bit machine, it equals 0xFFFFFFFF00. as such, doing 'and'
                 // with 0xFFFFFFFF (or 0xFFFFFF00) on a 32-bit machine is unnecessary, but on a 64-bit machine, it is.
@@ -847,7 +847,7 @@ class Crypt_Rijndael {
 
         // convert the key schedule from a vector of $Nb * ($Nr + 1) length to a matrix with $Nr + 1 rows and $Nb columns
         // and generate the inverse key schedule.  more specifically,
-        // according to <http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=23> (section 5.3.3),
+        // according to <https://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=23> (section 5.3.3),
         // "The key expansion for the Inverse Cipher is defined as follows:
         //        1. Apply the Key Expansion.
         //        2. Apply InvMixColumn to all Round Keys except the first and the last one."

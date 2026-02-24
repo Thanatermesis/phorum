@@ -27,9 +27,9 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     # Dialogs and errors.
     'enter url'     => 'Ole hyv� ja sy�t� linkin osoite.',
     'enter url description' => 'Ole hyv� ja sy�t� linkin kuvaus.',
-    'invalid url'   => 'Osoite on ep�kelpo. Sen pit�� alkaa tekstill� http://, https://, ftp:// tai mailto:',
+    'invalid url'   => 'Osoite on ep�kelpo. Sen pit�� alkaa tekstill� https://, https://, ftp:// tai mailto:',
     'enter image url' => 'Ole hyv� ja sy�t� lis�tt�v�n kuvan osoite.',
-    'invalid image url' => 'Kuvan osoite on ep�kelpo. Sen pit�� alkaa tekstill� http://, https:// tai ftp://',
+    'invalid image url' => 'Kuvan osoite on ep�kelpo. Sen pit�� alkaa tekstill� https://, https:// tai ftp://',
     'enter who you quote' => 'Ole hyv� ja sy�t� lainaamsi henkil�n nimi. Voit j�tt�� kent�n my�s tyhj�ksi halutessasi.',
 
     # For the size picker.

@@ -28,9 +28,9 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     'enter url'     => 'L�tfen ba�lant�s�n� yaratmak istedi�iniz site adresini giriniz.',
     'enter email'   => 'L�tfen ba�lant�s�n� yaratmak istedi�iniz E-Posta adresini giriniz.',
     'enter url description' => 'L�tfen site adresi i�in a��klama giriniz.',
-    'invalid url'   => 'Site adresi ge�ersiz. Adres http://, https://, ftp:// ya da mailto: ile ba�lamal�.',
+    'invalid url'   => 'Site adresi ge�ersiz. Adres https://, https://, ftp:// ya da mailto: ile ba�lamal�.',
     'enter image url' => 'Resmini eklemek istedi�iniz adresi giriniz.',
-    'invalid image url' => 'Resim adresi ge�ersiz. Adres http://, https:// ya da ftp:// ile ba�lamal�.',
+    'invalid image url' => 'Resim adresi ge�ersiz. Adres https://, https:// ya da ftp:// ile ba�lamal�.',
     'enter who you quote' => 'Al�nt� yapt���n�z ki�inin ad�n� giriniz. �sterseniz bu k�sm� bo� b�rakarak ge�ebilirsiniz.',
 
     # For the size picker.
